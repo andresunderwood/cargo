@@ -37,9 +37,18 @@
                 <a class="nav-link" href="#">Контакты</a>
               </li>
             </ul>
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">+380987808008</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">RU | UA</a>
+              </li>
+            </ul>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" /> -->
+              <button class="btn btn-outline-success" type="submit">Найти груз</button>
             </form>
           </div>
         </div>
@@ -48,109 +57,169 @@
     <!-- Main -->
     <main>
       <!-- Hero -->
-      <section class="hero-section" data-bs-theme="dark">
-        <h1>Доставка сборных грузов из Китая морем</h1>
-        <h3>Отслеживайте доставку груза</h3>
-        <p>Или оставьте заявку на доставку груза нашим кораблем</p>
+      <section class="hero-section section" data-bs-theme="dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-5">
+              <h1>Доставка сборных грузов из Китая морем</h1>
+              <h4>Отслеживайте доставку груза</h4>
+              <div class="hero-search">
+                <p>TH-95938043BC</p>
+                <button type="button" class="btn btn-dark">Найти</button>
+              </div>
+              <p class="hero-text">Или оставьте заявку на доставку груза нашим кораблем</p>
+              <button type="button" class="btn btn-outline-primary">Оставить заявку</button>
+            </div>
+            <div class="col"><img src="./images/hero.gif" width="880px" alt="Ship" /></div>
+          </div>
+        </div>
       </section>
 
       <!-- Week section -->
-      <section class="cargo-week-section" data-bs-theme="dark">
-        <h2>Отправляем контейнеры каждую неделю</h2>
-        <h3>Ближайший к отправке контейнер</h3>
-        <p>Номер отправления</p>
-        <p>TH-95938043BC</p>
-        <p>До отправки контейнера</p>
-        <p>8 ДНЕЙ 2 ЧАСА 45 МИНУТ</p>
-        <p>Уровень заполненности</p>
-        <p>30%</p>
+      <section class="nearest-container-section section" data-bs-theme="dark">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2>Отправляем контейнеры каждую неделю</h2>
+              <h4 class="nearest-container-subtitle">Ближайший к отправке контейнер</h4>
+              <div class="row nearest-container-row">
+                <p>Номер отправления</p>
+                <h5>TH-95938043BC</h5>
+              </div>
+              <div class="row nearest-container-row">
+                <p>До отправки контейнера</p>
+                <h5>8 ДНЕЙ 2 ЧАСА 45 МИНУТ</h5>
+              </div>
+              <div class="row nearest-container-row">
+                <p>Уровень заполненности</p>
+                <h5>30%</p>
+              </div>
+
+              <button type="button" class="btn btn-primary">Оставить заявку</button>
+            </div>
+            <div class="col"><img src="./images/container.svg" width="500px" alt="" /></div>
+          </div>
+        </div>
       </section>
 
       <!-- Our services -->
-      <section class="our-services-section" data-bs-theme="dark">
-        <h2>Мы предлагаем</h2>
-        <h4>Качественный сервис по доставке грузов и закупки товаров в Китае.</h4>
-        <h3>Фиксированную цену</h3>
-        <p>Если вам нужна действительно качественная и быстрая перевозка, цены на которую «не кусаются», обращайтесь в украинскую компанию Easy Cargo.</p>
-        <h3>Редкие задержки груза</h3>
-        <p>Наша компания выполняет целый комплекс услуг, связанных с международными грузоперевозками, в частности организовывает перевозки грузов из Китая в Украину.</p>
-        <h3>Оформление страховки</h3>
-        <p>Стоимость таможенного оформления грузов из Китая в Украину тяжело запомнить если вы часто меняете производителей или страну с которой везет товар.</p>
-        <h3>Доставку грузов по Украине</h3>
-        <p>Быстрая автодоставка из Китая будет интересна как частным, так и юридическим лицам.</p>
+      <section class="our-services-section section" data-bs-theme="dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <h2>Мы предлагаем</h2>
+              <h4>Качественный сервис по доставке грузов и закупки товаров в Китае.</h4>
+            </div>
+            <div class="col-4">
+              <h3>Фиксированную цену</h3>
+              <p>Если вам нужна действительно качественная и быстрая перевозка, цены на которую «не кусаются», обращайтесь в украинскую компанию Easy Cargo.</p>
+              <h3>Оформление страховки</h3>
+              <p>Стоимость таможенного оформления грузов из Китая в Украину тяжело запомнить если вы часто меняете производителей или страну с которой везет товар.</p>
+            </div>
+            <div class="col-4">
+              <h3>Редкие задержки груза</h3>
+              <p>Наша компания выполняет целый комплекс услуг, связанных с международными грузоперевозками, в частности организовывает перевозки грузов из Китая в Украину.</p>
+              <h3>Доставку грузов по Украине</h3>
+              <p>Быстрая автодоставка из Китая будет интересна как частным, так и юридическим лицам.</p>
+            </div>
+          </div>
+        </div>
       </section>
 
       <!-- Stages of work -->
-      <section class="stages-work-section" data-bs-theme="dark">
-        <h2>Этапы работы</h2>
-        <h3>Оставляете заявку</h3>
-        <p>Заявку можно оформить заполнив форму на сайте или в личном кабинете</p>
-        <h3>Получаете пересчет и инд.номер</h3>
-        <p>Вы передаёте адрес склада и QR вашему поставщику</p>
-        <h3>Привозим груз на склад в Китае</h3>
-        <p>Прием и оформление груза на нашем складе в Китае, подготовка к отправке</p>
-        <h3>Груз отплывает и проходит 10-14 этапов</h3>
-        <p>Доставка из Китая в Украину морем осуществляется точно в сроки, заранее оговоренные при формировании маршрутного листа, плюс вы будете в курсе всех этапов работ.</p>
-        <h3>Получаете груз у нас на складе</h3>
-        <p>В личном кабинете вы можете отслеживать статусы обработки вашей заявки</p>
+      <section class="stages-work-section section" data-bs-theme="dark">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2>Этапы работы</h2>
+              <ul class="stages-work-list">
+                <li>
+                  <h3>Оставляете заявку</h3>
+                  <p>Заявку можно оформить заполнив форму на сайте или в личном кабинете</p>
+                </li>
+                <li>
+                  <h3>Получаете пересчет и инд.номер</h3>
+                  <p>Вы передаёте адрес склада и QR вашему поставщику</p>
+                </li>
+                <li>
+                  <h3>Привозим груз на склад в Китае</h3>
+                  <p>Прием и оформление груза на нашем складе в Китае, подготовка к отправке</p>
+                </li>
+                <li>
+                  <h3>Груз отплывает и проходит 10-14 этапов</h3>
+                  <p>Доставка из Китая в Украину морем осуществляется точно в сроки, заранее оговоренные при формировании маршрутного листа, плюс вы будете в курсе всех этапов работ.</p>
+                </li>
+                <li>
+                  <h3>Получаете груз у нас на складе</h3>
+                  <p>В личном кабинете вы можете отслеживать статусы обработки вашей заявки</p>
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <img src="./images/ship2.jpg" alt="Ship" />
+            </div>
+          </div>
+        </div>
       </section>
 
       <!-- FAQ section -->
-      <section class="faq-section" data-bs-theme="dark">
-        <h2>Вопросы/ответы</h2>
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Как оформить товар на таможне?</button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                Стоимость таможенного оформления грузов из Китая в Украину тяжело запомнить если вы часто меняете производителей или страну с которой везет товар. Стоимость таможенного оформления грузов из Китая в Украину тяжело запомнить если вы
-                часто меняете производителей или страну с которой везет товар.
+      <section class="faq-section section" data-bs-theme="dark">
+        <div class="container">
+          <h2>Вопросы/ответы</h2>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Как оформить товар на таможне?</button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Стоимость таможенного оформления грузов из Китая в Украину тяжело запомнить если вы часто меняете производителей или страну с которой везет товар. Стоимость таможенного оформления грузов из Китая в Украину тяжело запомнить если вы
+                  часто меняете производителей или страну с которой везет товар.
+                </div>
               </div>
             </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Как использовать промо код?</button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                Стоимость таможенного оформления грузов из Китая в Украину тяжело запомнить если вы часто меняете производителей или страну с которой везет товар. Стоимость таможенного оформления грузов из Китая в Украину тяжело запомнить если вы
-                часто меняете производителей или страну с которой везет товар.
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Как использовать промо код?</button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Стоимость таможенного оформления грузов из Китая в Украину тяжело запомнить если вы часто меняете производителей или страну с которой везет товар. Стоимость таможенного оформления грузов из Китая в Украину тяжело запомнить если вы
+                  часто меняете производителей или страну с которой везет товар.
+                </div>
               </div>
             </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Как проверить Китайского поставщика?</button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                Стоимость таможенного оформления грузов из Китая в Украину тяжело запомнить если вы часто меняете производителей или страну с которой везет товар. Стоимость таможенного оформления грузов из Китая в Украину тяжело запомнить если вы
-                часто меняете производителей или страну с которой везет товар.
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Как проверить Китайского поставщика?</button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Стоимость таможенного оформления грузов из Китая в Украину тяжело запомнить если вы часто меняете производителей или страну с которой везет товар. Стоимость таможенного оформления грузов из Китая в Украину тяжело запомнить если вы
+                  часто меняете производителей или страну с которой везет товар.
+                </div>
               </div>
             </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Как проверить отправляемый товар?</button>
-            </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                Стоимость таможенного оформления грузов из Китая в Украину тяжело запомнить если вы часто меняете производителей или страну с которой везет товар. Стоимость таможенного оформления грузов из Китая в Украину тяжело запомнить если вы
-                часто меняете производителей или страну с которой везет товар.
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Как проверить отправляемый товар?</button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Стоимость таможенного оформления грузов из Китая в Украину тяжело запомнить если вы часто меняете производителей или страну с которой везет товар. Стоимость таможенного оформления грузов из Китая в Украину тяжело запомнить если вы
+                  часто меняете производителей или страну с которой везет товар.
+                </div>
               </div>
             </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Как проводится доставка грузов из Китая в Украину?</button>
-            </h2>
-            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                Стоимость таможенного оформления грузов из Китая в Украину тяжело запомнить если вы часто меняете производителей или страну с которой везет товар. Стоимость таможенного оформления грузов из Китая в Украину тяжело запомнить если вы
-                часто меняете производителей или страну с которой везет товар.
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Как проводится доставка грузов из Китая в Украину?</button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Стоимость таможенного оформления грузов из Китая в Украину тяжело запомнить если вы часто меняете производителей или страну с которой везет товар. Стоимость таможенного оформления грузов из Китая в Украину тяжело запомнить если вы
+                  часто меняете производителей или страну с которой везет товар.
+                </div>
               </div>
             </div>
           </div>
@@ -158,8 +227,10 @@
       </section>
 
       <!-- Contact form -->
-      <section class="contact-form-section" data-bs-theme="dark">
-        <h2>Остались вопросы?</h2>
+      <section class="contact-form-section section" data-bs-theme="dark">
+        <div class="container">
+          <h2>Остались вопросы?</h2>
+        </div>
       </section>
     </main>
     <!-- Footer -->

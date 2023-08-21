@@ -1,6 +1,10 @@
-@import "./utils/variables";
+@import './utils/variables';
 
-@import "./base/reset";
-@import "./base/common";
-@import "./base/container";
-@import "./base/section";
+@import './base/reset';
+@import './base/common';
+// @import "./base/container";
+@import './base/section';
+
+@import './layout/hero';
+@import './layout/nearest_container';
+@import './layout/stages_work';
