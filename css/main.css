@@ -76,6 +76,14 @@ p {
   line-height: normal;
 }
 
+.span-icon-before {
+  margin-right: 8px;
+}
+
+.main-svg-icon {
+  fill: #e1ff03;
+}
+
 .section {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -87,17 +95,20 @@ p {
     padding-bottom: 106px;
   }
 }
-.btn-outline-primary {
-  border-radius: 6px;
-  border: 2px solid #e1ff03;
-  padding: 16px 24px;
-  color: #e1ff03;
+.btn {
   text-align: center;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   text-transform: uppercase;
+}
+
+.btn-outline-primary {
+  border-radius: 6px;
+  border: 2px solid #e1ff03;
+  padding: 16px 24px;
+  color: #e1ff03;
 }
 
 .btn-dark {
@@ -109,6 +120,41 @@ p {
   color: black;
   background-color: #e1ff03;
   border: 2px solid #e1ff03;
+}
+
+.btn-primary {
+  color: black;
+  padding: 16px 24px;
+  background-color: #e1ff03;
+  border: 2px solid #e1ff03;
+}
+
+.btn-primary:hover,
+.btn-primaryary:active {
+  color: #e1ff03;
+  background-color: black;
+  border: 2px solid #e1ff03;
+}
+
+.nav-contact-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-right: 16px;
+}
+
+.header-contact-icon {
+  fill: #e1ff03;
+  border: 1px solid #e1ff03;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+footer {
+  padding: 44px 64px;
 }
 
 .hero-search {
@@ -170,9 +216,12 @@ p {
 .stages-work-list li {
   height: 100px;
 }
-
 .stages-work-list li:not(:last-child) {
   margin-bottom: 16px;
+}
+.stages-work-list li p {
+  padding-left: 36px;
+  border-left: 3px solid #e1ff03;
 }
 
 .stages-work-list p {
@@ -180,4 +229,37 @@ p {
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
+}
+
+.stages-work-section img {
+  border-radius: 8px;
+}
+
+.our-services-section h4 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+}
+
+.our-services-section h3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.our-services-section p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.6;
+  margin-bottom: 74px;
+}
+
+.contact-form-section p {
+  margin-bottom: 32px;
 }

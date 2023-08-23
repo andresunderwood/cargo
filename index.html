@@ -10,7 +10,7 @@
   </head>
   <body>
     <!-- Header -->
-    <header>
+    <header class="sticky-top">
       <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -22,33 +22,41 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Сейчас в дороге</a>
+                <a class="nav-link" aria-current="page" href="#nearest-container">Сейчас в дороге</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Услуги</a>
+                <a class="nav-link" href="#our-services">Услуги</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Этапы работы</a>
+                <a class="nav-link" href="#stages-work">Этапы работы</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Вопросы/ответы</a>
+                <a class="nav-link" href="#faq">Вопросы/ответы</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Контакты</a>
+                <a class="nav-link" href="#contact-form">Контакты</a>
               </li>
             </ul>
 
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">+380987808008</a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 collapse">
+              <li class="nav-item nav-contact-icon">
+                <svg width="16" height="16" class="header-contact-icon">
+                  <use href="./images/symbol-defs.svg#icon-telegram"></use>
+                </svg>
+                <svg width="16" height="16" class="header-contact-icon">
+                  <use href="./images/symbol-defs.svg#icon-phone"></use>
+                </svg>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">RU | UA</a>
+                <a class="nav-link" aria-current="page" href="tel:+380987808008">+380987808008</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">RU | UA</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
               <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" /> -->
-              <button class="btn btn-outline-success" type="submit">Найти груз</button>
+              <button class="btn btn-primary" type="submit">Найти груз</button>
             </form>
           </div>
         </div>
@@ -62,7 +70,14 @@
           <div class="row">
             <div class="col-5">
               <h1>Доставка сборных грузов из Китая морем</h1>
-              <h4>Отслеживайте доставку груза</h4>
+              <h4>
+                <span class="span-icon-before">
+                  <svg width="24" height="24" class="main-svg-icon">
+                    <use href="./images/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                </span>
+                Отслеживайте доставку груза
+              </h4>
               <div class="hero-search">
                 <p>TH-95938043BC</p>
                 <button type="button" class="btn btn-dark">Найти</button>
@@ -70,13 +85,13 @@
               <p class="hero-text">Или оставьте заявку на доставку груза нашим кораблем</p>
               <button type="button" class="btn btn-outline-primary">Оставить заявку</button>
             </div>
-            <div class="col"><img src="./images/hero.gif" width="880px" alt="Ship" /></div>
+            <div class="col-7"><img src="./images/hero.gif" width="880px" alt="Ship" /></div>
           </div>
         </div>
       </section>
 
       <!-- Week section -->
-      <section class="nearest-container-section section" data-bs-theme="dark">
+      <section id="nearest-container" class="nearest-container-section section" data-bs-theme="dark">
         <div class="container">
           <div class="row">
             <div class="col">
@@ -88,22 +103,35 @@
               </div>
               <div class="row nearest-container-row">
                 <p>До отправки контейнера</p>
-                <h5>8 ДНЕЙ 2 ЧАСА 45 МИНУТ</h5>
+                <h5>
+                  <span class="span-icon-before">
+                    <svg width="24" height="24" class="main-svg-icon">
+                      <use href="./images/symbol-defs.svg#icon-clock"></use>
+                    </svg>
+                  </span>
+                  8 ДНЕЙ 2 ЧАСА 45 МИНУТ
+                </h5>
               </div>
               <div class="row nearest-container-row">
                 <p>Уровень заполненности</p>
-                <h5>30%</p>
+                <h5>
+                  <span class="span-icon-before">
+                    <svg width="24" height="24" class="main-svg-icon">
+                      <use href="./images/symbol-defs.svg#icon-pack"></use>
+                    </svg>
+                  </span>
+                  30%
+                </h5>
               </div>
-
               <button type="button" class="btn btn-primary">Оставить заявку</button>
             </div>
-            <div class="col"><img src="./images/container.svg" width="500px" alt="" /></div>
+            <div class="col"><img src="./images/container.svg" alt="Container" /></div>
           </div>
         </div>
       </section>
 
       <!-- Our services -->
-      <section class="our-services-section section" data-bs-theme="dark">
+      <section id="our-services" class="our-services-section section" data-bs-theme="dark">
         <div class="container">
           <div class="row">
             <div class="col-4">
@@ -111,15 +139,43 @@
               <h4>Качественный сервис по доставке грузов и закупки товаров в Китае.</h4>
             </div>
             <div class="col-4">
-              <h3>Фиксированную цену</h3>
+              <h3>
+                <span class="span-icon-before">
+                  <svg width="24" height="24" class="main-svg-icon">
+                    <use href="./images/symbol-defs.svg#icon-label"></use>
+                  </svg>
+                </span>
+                Фиксированную цену
+              </h3>
               <p>Если вам нужна действительно качественная и быстрая перевозка, цены на которую «не кусаются», обращайтесь в украинскую компанию Easy Cargo.</p>
-              <h3>Оформление страховки</h3>
+              <h3>
+                <span class="span-icon-before">
+                  <svg width="24" height="24" class="main-svg-icon">
+                    <use href="./images/symbol-defs.svg#icon-workbook"></use>
+                  </svg>
+                </span>
+                Оформление страховки
+              </h3>
               <p>Стоимость таможенного оформления грузов из Китая в Украину тяжело запомнить если вы часто меняете производителей или страну с которой везет товар.</p>
             </div>
             <div class="col-4">
-              <h3>Редкие задержки груза</h3>
+              <h3>
+                <span class="span-icon-before">
+                  <svg width="24" height="24" class="main-svg-icon">
+                    <use href="./images/symbol-defs.svg#icon-clock"></use>
+                  </svg>
+                </span>
+                Редкие задержки груза
+              </h3>
               <p>Наша компания выполняет целый комплекс услуг, связанных с международными грузоперевозками, в частности организовывает перевозки грузов из Китая в Украину.</p>
-              <h3>Доставку грузов по Украине</h3>
+              <h3>
+                <span class="span-icon-before">
+                  <svg width="24" height="24" class="main-svg-icon">
+                    <use href="./images/symbol-defs.svg#icon-car"></use>
+                  </svg>
+                </span>
+                Доставку грузов по Украине
+              </h3>
               <p>Быстрая автодоставка из Китая будет интересна как частным, так и юридическим лицам.</p>
             </div>
           </div>
@@ -127,30 +183,65 @@
       </section>
 
       <!-- Stages of work -->
-      <section class="stages-work-section section" data-bs-theme="dark">
+      <section id="stages-work" class="stages-work-section section" data-bs-theme="dark">
         <div class="container">
           <div class="row">
             <div class="col">
               <h2>Этапы работы</h2>
               <ul class="stages-work-list">
                 <li>
-                  <h3>Оставляете заявку</h3>
+                  <h3>
+                    <span class="span-icon-before">
+                      <svg width="24" height="24" class="main-svg-icon">
+                        <use href="./images/symbol-defs.svg#icon-star2"></use>
+                      </svg>
+                    </span>
+                    Оставляете заявку
+                  </h3>
                   <p>Заявку можно оформить заполнив форму на сайте или в личном кабинете</p>
                 </li>
                 <li>
-                  <h3>Получаете пересчет и инд.номер</h3>
+                  <h3>
+                    <span class="span-icon-before">
+                      <svg width="24" height="24" class="main-svg-icon">
+                        <use href="./images/symbol-defs.svg#icon-star2"></use>
+                      </svg>
+                    </span>
+                    Получаете пересчет и инд.номер
+                  </h3>
                   <p>Вы передаёте адрес склада и QR вашему поставщику</p>
                 </li>
                 <li>
-                  <h3>Привозим груз на склад в Китае</h3>
+                  <h3>
+                    <span class="span-icon-before">
+                      <svg width="24" height="24" class="main-svg-icon">
+                        <use href="./images/symbol-defs.svg#icon-star2"></use>
+                      </svg>
+                    </span>
+                    Привозим груз на склад в Китае
+                  </h3>
                   <p>Прием и оформление груза на нашем складе в Китае, подготовка к отправке</p>
                 </li>
                 <li>
-                  <h3>Груз отплывает и проходит 10-14 этапов</h3>
+                  <h3>
+                    <span class="span-icon-before">
+                      <svg width="24" height="24" class="main-svg-icon">
+                        <use href="./images/symbol-defs.svg#icon-star2"></use>
+                      </svg>
+                    </span>
+                    Груз отплывает и проходит 10-14 этапов
+                  </h3>
                   <p>Доставка из Китая в Украину морем осуществляется точно в сроки, заранее оговоренные при формировании маршрутного листа, плюс вы будете в курсе всех этапов работ.</p>
                 </li>
                 <li>
-                  <h3>Получаете груз у нас на складе</h3>
+                  <h3>
+                    <span class="span-icon-before">
+                      <svg width="24" height="24" class="main-svg-icon">
+                        <use href="./images/symbol-defs.svg#icon-star2"></use>
+                      </svg>
+                    </span>
+                    Получаете груз у нас на складе
+                  </h3>
                   <p>В личном кабинете вы можете отслеживать статусы обработки вашей заявки</p>
                 </li>
               </ul>
@@ -163,7 +254,7 @@
       </section>
 
       <!-- FAQ section -->
-      <section class="faq-section section" data-bs-theme="dark">
+      <section id="faq" class="faq-section section" data-bs-theme="dark">
         <div class="container">
           <h2>Вопросы/ответы</h2>
           <div class="accordion" id="accordionExample">
@@ -171,7 +262,7 @@
               <h2 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Как оформить товар на таможне?</button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   Стоимость таможенного оформления грузов из Китая в Украину тяжело запомнить если вы часто меняете производителей или страну с которой везет товар. Стоимость таможенного оформления грузов из Китая в Украину тяжело запомнить если вы
                   часто меняете производителей или страну с которой везет товар.
@@ -227,9 +318,37 @@
       </section>
 
       <!-- Contact form -->
-      <section class="contact-form-section section" data-bs-theme="dark">
+      <section id="contact-form" class="contact-form-section section" data-bs-theme="dark">
         <div class="container">
-          <h2>Остались вопросы?</h2>
+          <div class="row">
+            <div class="col-4">
+              <h2>Остались вопросы?</h2>
+              <p>Заполните форму, чтобы наш менеджер связался с Вами!</p>
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputName1" class="form-label">Имя</label>
+                  <input type="text" class="form-control" id="exampleInputName1" />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPhone1" class="form-label">Телефон</label>
+                  <input type="text" class="form-control" id="exampleInputPhone1" />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Электронная почта</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                </div>
+
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                  <label class="form-check-label" for="exampleCheck1">Согласие на обработку данных, согласно политике конфиденциальности</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Отправить заявку</button>
+              </form>
+            </div>
+            <div class="col-8">
+              <img src="./images/round.svg" alt="" />
+            </div>
+          </div>
         </div>
       </section>
     </main>

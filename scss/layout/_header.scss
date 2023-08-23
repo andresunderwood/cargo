@@ -1,0 +1,16 @@
+.nav-contact-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-right: 16px;
+}
+
+.header-contact-icon {
+  fill: $mainColorElement;
+  border: 1px solid $mainColorElement;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 4px;
+}

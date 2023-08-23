@@ -5,6 +5,13 @@
 // @import "./base/container";
 @import './base/section';
 
-@import './layout/hero';
-@import './layout/nearest_container';
-@import './layout/stages_work';
+@import './components/btn';
+
+@import './layout/header';
+@import './layout/footer';
+
+@import './pages/hero';
+@import './pages/nearest_container';
+@import './pages/stages_work';
+@import './pages/our_services';
+@import './pages/contact_form';

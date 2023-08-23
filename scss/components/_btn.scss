@@ -1,0 +1,41 @@
+.btn {
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.btn-outline-primary {
+  border-radius: 6px;
+  border: 2px solid $mainColorElement;
+  padding: 16px 24px;
+
+  color: $mainColorElement;
+}
+
+.btn-dark {
+  padding: 16px 24px;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:active {
+  color: black;
+  background-color: $mainColorElement;
+  border: 2px solid $mainColorElement;
+}
+
+.btn-primary {
+  color: black;
+  padding: 16px 24px;
+  background-color: $mainColorElement;
+  border: 2px solid $mainColorElement;
+}
+
+.btn-primary:hover,
+.btn-primaryary:active {
+  color: $mainColorElement;
+  background-color: black;
+  border: 2px solid $mainColorElement;
+}
