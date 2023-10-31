@@ -136,6 +136,10 @@ p {
   border: 2px solid #e1ff03;
 }
 
+.modal-content {
+  background-color: #343a40;
+}
+
 .nav-contact-icon {
   display: flex;
   justify-content: center;
