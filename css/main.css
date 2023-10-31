@@ -213,9 +213,6 @@ footer {
   margin-bottom: 8px;
 }
 
-.stages-work-list li {
-  height: 120px;
-}
 .stages-work-list li:not(:last-child) {
   margin-bottom: 16px;
 }
