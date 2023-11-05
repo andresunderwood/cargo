@@ -1,0 +1,14 @@
+.accordion-item {
+  background-color: $titleColor;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: $titleColor;
+  color: $mainTextColor;
+}
+
+.accordion-button:hover,
+.accordion-heabuttonder:focus {
+  background-color: $mainColorElement;
+  color: $body-color;
+}

@@ -264,3 +264,18 @@ footer {
 .contact-form-section p {
   margin-bottom: 32px;
 }
+
+.accordion-item {
+  background-color: #212121;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #212121;
+  color: #fff;
+}
+
+.accordion-button:hover,
+.accordion-heabuttonder:focus {
+  background-color: #e1ff03;
+  color: #111;
+}
