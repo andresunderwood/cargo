@@ -189,6 +189,10 @@ footer {
   text-transform: uppercase;
 }
 
+.img-hego {
+  margin-top: 24px;
+}
+
 .nearest-container-subtitle {
   color: #e1ff03;
   font-size: 20px;
