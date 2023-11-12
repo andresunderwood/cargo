@@ -157,6 +157,15 @@ p {
   padding: 4px;
 }
 
+.nav-item-lg {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item span {
+  color: var(--bs-nav-link-color);
+}
+
 footer {
   padding: 44px 64px;
 }
