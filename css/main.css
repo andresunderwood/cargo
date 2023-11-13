@@ -234,8 +234,9 @@ footer {
   margin-bottom: 16px;
 }
 .stages-work-list li p {
-  padding-left: 36px;
+  padding-left: 30px;
   border-left: 3px solid #e1ff03;
+  margin-left: 10px;
 }
 
 .stages-work-list p {
@@ -248,6 +249,13 @@ footer {
 .stages-work-section img {
   border-radius: 8px;
   margin-top: 24px;
+}
+
+.stages-work-list-item-thumb {
+  display: flex;
+}
+.stages-work-list-item-thumb h3 {
+  padding-left: 8px;
 }
 
 .our-services-section h4 {
@@ -272,7 +280,7 @@ footer {
   font-weight: 400;
   line-height: normal;
   opacity: 0.6;
-  margin-bottom: 74px;
+  height: 120px;
 }
 
 .contact-form-section p {
