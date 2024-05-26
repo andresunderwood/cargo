@@ -1,0 +1,4 @@
+Days: 3 дні
+Fullness: 70
+Days_ru: 3 дня
+Fullness_ru: 70

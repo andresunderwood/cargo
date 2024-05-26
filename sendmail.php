@@ -38,14 +38,15 @@ try {
     $mail->SMTPSecure = 'ssl';
     $mail->Port = $smtpPort;
 
-     // Встановлення таймауту для спроби з'єднання
+    // Встановлення таймауту для спроби з'єднання
     $mail->Timeout = 10;
 
     // Встановлення параметрів електронного листа
     $mail->setFrom($smtpUsername, $name);
-    $mail->addAddress('andrey.belchev@gmail.com', 'Recipient Name');
+    $mail->addAddress('info@easycargo.ua', 'Recipient Name');
+    $mail->addBCC('andrey.belchev@gmail.com', 'BCC Recipient Name');
     $mail->isHTML(true);
-    $mail->Subject = 'New Message from Website';
+    $mail->Subject = 'New Message from cargo.ua';
     $mail->Body = $message;
 
     // Відправлення листа
@@ -54,4 +55,3 @@ try {
 } catch (Exception $e) {
     echo 'Виникла помилка при відправці повідомлення: ', $mail->ErrorInfo;
 }
-?>
