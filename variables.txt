@@ -1,2 +1,2 @@
 $days = 10 дней
-$fullness = 75
+$fullness = 80
