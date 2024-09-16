@@ -1,3 +1,6 @@
+.header-top {
+  background-color: black;
+}
 .nav-contact-icon {
   display: flex;
   justify-content: center;
@@ -46,4 +49,48 @@
   width: 100%;
   align-items: center;
   gap: 40px;
+}
+@media (max-width: 1100px) {
+  .header-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-top .row {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .header-top .navbar-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-top .navbar-brand img {
+    margin-bottom: 10px;
+  }
+
+  .header-top-phone {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .social-icons {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .header-top .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .header-top .col-md-4, .col-md-2, .col-md-4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

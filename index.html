@@ -12,51 +12,43 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="sticky-top">
-      <div class="header-top py-2">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-4 d-flex justify-content-center">
-              <a class="navbar-brand" href="#"></a>
-                <img src="./images/logo.svg" alt="" />
-              </a>
-            </div>
-            <div class="col-md-2">
-              <ul class="header-top-phone">
-                <li class="d-flex justify-content-end">
-                  <svg width="16" height="16" class="header-contact-icon">
-                    <use href="./images/symbol-defs.svg#icon-phone"></use>
-                  </svg>
-                  <a class="nav-link" aria-current="page" href="tel:+380987808008">+380987808008</a>
-                </li>
-                <li class="d-flex justify-content-end">
-                  <svg width="16" height="16" class="header-contact-icon">
-                    <use href="./images/symbol-defs.svg#icon-phone"></use>
-                  </svg>
-                  <a class="nav-link" aria-current="page" href="tel:+380987808008">+380987808008</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-2 d-flex justify-content-end align-items-center">
-              <ul class="social-icons d-flex gap-3">
-                <li><a href="">
-                  <i class="fa-brands fa-instagram header-social-icon"></i>
-                </a></li>
-                <li><a href="">
-                  <i class="fa-brands fa-facebook-f header-social-icon"></i>
-                </a></li>
-                <li><a href="">
-                  <i class="fa-brands fa-linkedin-in header-social-icon"></i>
-                </a></li>
-              </ul>
-            </div>
-            <div class="col-md-4 d-flex justify-content-end gap-2">
-              <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#deliveryCalculationModal">Вартість доставки</button>
-              <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Відстежити</button> 
+    <div class="header-top py-2">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 d-flex justify-content-center">
+            <a class="navbar-brand" href="#"></a>
+              <img src="./images/logo.svg" alt="" />
+            </a>
+          </div>
+          <div class="col-md-2 d-flex align-items-center justify-content-end">
+            <div class="header-top-phone d-flex align-items-center">
+              <svg width="16" height="16" class="header-contact-icon">
+                <use href="./images/symbol-defs.svg#icon-phone"></use>
+              </svg>
+              <a class="nav-link" aria-current="page" href="tel:+380987808008">+380987808008</a>
             </div>
           </div>
+          <div class="col-md-2 d-flex justify-content-end align-items-center">
+            <ul class="social-icons d-flex gap-3">
+              <li><a href="https://www.instagram.com/easycargo.ua/">
+                <i class="fa-brands fa-instagram header-social-icon"></i>
+              </a></li>
+              <li><a href="https://www.facebook.com/easycargoua">
+                <i class="fa-brands fa-facebook-f header-social-icon"></i>
+              </a></li>
+              <li><a href="">
+                <i class="fa-brands fa-linkedin-in header-social-icon"></i>
+              </a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 d-flex justify-content-end gap-2">
+            <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#deliveryCalculationModal">Вартість доставки</button>
+            <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Відстежити</button> 
+          </div>
         </div>
-      </div>     
+      </div>
+    </div> 
+    <header class="sticky-top">    
       <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
           <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,7 +72,7 @@
                 <a class="nav-link" href="#contact-form">Блог</a>
               </li>
               <li class="nav-item nav-item-lg">
-                <span>UA</span><a class="nav-link active" href="/ru">| RU</a>
+                <a class="nav-link active" href="/ua">UA</a><span>| RU</span>
               </li>
             </ul>
           </div>
@@ -141,9 +133,8 @@
               </div>
             </form>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-            <button type="button" class="btn btn-primary">Рассчитать стоимость</button>
+          <div class="modal-footer d-flex justify-content-center">            
+            <button type="button" class="btn btn-primary">Дізнатися вартість</button>
           </div>
         </div>
       </div>
