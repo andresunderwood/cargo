@@ -1,9 +1,9 @@
 FROM php:7.4-fpm
 
 # Install mysqli extension
-RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli
+#RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli
 
-# RUN apt-get update && apt-get upgrade -y
+RUN apt-get update && apt-get upgrade -y
 
 
 # Continue with other setup steps...

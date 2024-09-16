@@ -157,6 +157,26 @@ p {
   padding: 4px;
 }
 
+.header-social-icon {
+  fill: #e1ff03;
+  border: 1px solid #e1ff03;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 4px;
+  color: #e1ff03;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  gap: 20px;
+  transition: all 500ms ease;
+}
+
+.header-social-icon:hover {
+  background-color: #e1ff03;
+  color: black;
+}
+
 .nav-item-lg {
   display: flex;
   align-items: center;
@@ -164,6 +184,13 @@ p {
 
 .nav-item span {
   color: var(--bs-nav-link-color);
+}
+
+.navbar-nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 40px;
 }
 
 footer {

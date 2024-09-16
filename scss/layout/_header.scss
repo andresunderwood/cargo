@@ -13,8 +13,26 @@
   height: 30px;
   border-radius: 50%;
   padding: 4px;
+  
 }
-
+.header-social-icon {
+  fill: $mainColorElement;
+  border: 1px solid $mainColorElement;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 4px;
+  color: $mainColorElement;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  gap: 20px;
+  transition: all 500ms ease;
+}
+.header-social-icon:hover{
+  background-color: $mainColorElement;
+  color: black;
+}
 .nav-item-lg {
   display: flex;
   align-items: center;
@@ -22,4 +40,10 @@
 
 .nav-item span {
   color: var(--bs-nav-link-color);
+}
+.navbar-nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 40px;
 }
