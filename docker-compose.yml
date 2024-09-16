@@ -8,12 +8,12 @@ services:
     image: 'nginx:latest'
     container_name: ${PROJECT_NAME}-nginx
     restart: always
-    working_dir: /var/www
+    working_dir: /usr/share/nginx/html
     volumes:
       - ./docker/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
       # - ./nginx/.htaccess:/app/public/.htaccess
-      - ./:/var/www/public
-      #- ./html:/usr/share/nginx/html
+      #- ./:/var/www/public
+      - ./:/usr/share/nginx/html
     ports:
       - '80:80'
       - '443:443'
@@ -36,7 +36,7 @@ services:
     # depends_on:
     #   - db
     volumes:
-      - ./:/var/www/public
+      - ./:/usr/share/nginx/html
 
   # php-cli:
   #   image: "php:7.4-cli"
