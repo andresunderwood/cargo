@@ -21,7 +21,9 @@
             </a>
           </div>
           <div class="col-md-2 d-flex align-items-center justify-content-end">
-            <div class="header-top-phone d-flex align-items-center">
+            <div class="header-top-phone d-flex align-items-center gap-1">
+              <a class="nav-link" aria-current="page" href="https://wa.me/380987808008"><i class="fa-brands fa-whatsapp header-social-icon"></i></a>
+              <a class="nav-link" aria-current="page" href="https://t.me/+380987808008"><i class="fa-brands fa-telegram header-social-icon"></i></a>
               <svg width="16" height="16" class="header-contact-icon">
                 <use href="./images/symbol-defs.svg#icon-phone"></use>
               </svg>
@@ -99,14 +101,10 @@
                   <input class="form-check-input" type="radio" name="deliveryMethod" id="seaAuto" value="sea-auto">
                   <label class="form-check-label" for="seaAuto">Море - Авто (60 - 65 дней)</label>
                 </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="deliveryMethod" id="seaTrain" value="sea-train">
-                  <label class="form-check-label" for="seaTrain">Море - Поезд (45 днів)</label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="deliveryMethod" id="europe" value="europe">
-                  <label class="form-check-label" for="europe">Доставка из Европы (10 - 14 днів)</label>
-                </div>
+              </div>
+              <div class="mb-3">
+                <label for="city" class="form-label">Город доставки</label>
+                <input type="text" class="form-control" id="city" placeholder="Введите ваш город" required>
               </div>    
               <div class="mb-3">
                 <label for="productCategory" class="form-label">Выберите категорию товара</label>
@@ -161,7 +159,7 @@
       <section class="hero-section section" data-bs-theme="dark">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 order-xl-0 my-3">
+            <div class="col-md-6 order-xl-0 my-3 hero-section-left">
               <h1>Доставка из Китая в Украину авиа</h1>
               <h4>
                 <span class="span-icon-before">
@@ -175,7 +173,7 @@
                 <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Узнать тариф</button>
               </div>
             </div>
-            <div class="col-md-6 order-xl-0 my-3">
+            <div class="col-md-6 order-xl-0 my-3 hero-section-right">
               <h1>Доставка из Китая в Украину морем</h1>
               <h4>
                 <span class="span-icon-before">

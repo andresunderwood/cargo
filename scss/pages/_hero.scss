@@ -9,6 +9,12 @@
 
 }
 
+.hero-section-left {
+  padding-left: 150px;
+}
+.hero-section-right {
+  padding-left: 50px;
+}
 .hero-search {
   width: 242px;
   display: flex;
@@ -41,3 +47,22 @@
 .img-hego {
   margin-top: 24px;
 }
+ @media(max-width: 1300px) {
+  .hero-section {
+    height: 100%;
+  }
+  .hero-section-left {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .hero-section-right {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+ }
