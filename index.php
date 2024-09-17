@@ -205,6 +205,95 @@
         </div>
       </section>
 
+    <!-- Services -->
+      <section class="services">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="section-title"><span>Послуги транспортно-логістичної компанії Easy Cargo</span></h2>
+            </div>
+          </div>  
+          <div class="items">
+            <div class="row">  
+              <div class="col-lg-3 col-sm-6">
+                <div class="item">
+                  <div class="services-icons">
+                    <i class="fa-solid fa-ship services-icon"></i>
+                  </div>                  
+                  <h3>Доставка морем</h3>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="item">
+                  <div class="services-icons">
+                    <i class="fa-solid fa-plane services-icon"></i>
+                  </div>
+                  <h3>Доставка авіа</h3>
+                </div>                    
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="item">
+                  <div class="services-icons">
+                    <i class="fa-solid fa-magnifying-glass services-icon"></i>
+                  </div>
+                  <h3>Пошук товарів в Китаї</h3>
+                </div>                    
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="item">
+                  <div class="services-icons">
+                    <i class="fa-regular fa-file services-icon"></i>
+                  </div>
+                  <h3>Повне супроводження</h3>
+                </div>                    
+              </div>
+            </div>  
+          </div>  
+        </div>
+      </section>
+
+      <!--Collaboration process-->
+      <section class="collaboration">
+        <h2>Процес співпраці з нами</h2>
+        <div class="container my-5">
+          <div class="row text-center align-items-center">
+              <div class="col">
+                  <div class="circle">Залишаєте заявку</div>
+              </div>
+              <div class="col">
+                  <div class="arrow">→</div>
+              </div>
+              <div class="col">
+                  <div class="circle">Узгоджуємо тарифи та терміни</div>
+              </div>
+              <div class="col">
+                  <div class="arrow">→</div>
+              </div>
+              <div class="col">
+                  <div class="circle">Отримуємо вантаж на склад</div>
+              </div>
+              <div class="col">
+                  <div class="arrow">→</div>
+              </div>
+              <div class="col">
+                  <div class="circle">Відправляємо вантаж в Україну</div>
+              </div>
+              <div class="col">
+                  <div class="arrow">→</div>
+              </div>
+              <div class="col">
+                  <div class="circle">Розмитнюємо вантаж</div>
+              </div>
+              <div class="col">
+                  <div class="arrow">→</div>
+              </div>
+              <div class="col">
+                  <div class="circle">Передача товару, сплата за послуги</div>
+              </div>
+          </div>
+        </div>
+      </section>
+
     <?php
     $filename = 'data.txt';
 
