@@ -174,7 +174,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 order-xl-0 my-3 hero-section-left">
-              <h1>Доставка з Китаю в Україну авіа</h1>
+              <h1>Доставка!!! з Китаю в Україну авіа</h1>
               <h4>
                 <span class="span-icon-before">
                   <svg width="24" height="24" class="main-svg-icon">
@@ -205,7 +205,7 @@
         </div>
       </section>
 
-    <!-- Services -->
+     <!-- Services -->
       <section class="services">
         <div class="container">
           <div class="row">
@@ -214,23 +214,15 @@
             </div>
           </div>  
           <div class="items">
-            <div class="row">  
+            <div class="row"> 
               <div class="col-lg-3 col-sm-6">
                 <div class="item">
                   <div class="services-icons">
-                    <i class="fa-solid fa-ship services-icon"></i>
-                  </div>                  
-                  <h3>Доставка морем</h3>
-                </div>
-              </div>
-              <div class="col-lg-3 col-sm-6">
-                <div class="item">
-                  <div class="services-icons">
-                    <i class="fa-solid fa-plane services-icon"></i>
+                    <i class="fa-regular fa-file services-icon"></i>
                   </div>
-                  <h3>Доставка авіа</h3>
+                  <h3>Повне супроводження бізнесу з Китаєм</h3>
                 </div>                    
-              </div>
+              </div> 
               <div class="col-lg-3 col-sm-6">
                 <div class="item">
                   <div class="services-icons">
@@ -242,9 +234,17 @@
               <div class="col-lg-3 col-sm-6">
                 <div class="item">
                   <div class="services-icons">
-                    <i class="fa-regular fa-file services-icon"></i>
+                    <i class="fa-solid fa-ship services-icon"></i>
+                  </div>                  
+                  <h3>Доставка морем та розмитнення</h3>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="item">
+                  <div class="services-icons">
+                    <i class="fa-solid fa-plane services-icon"></i>
                   </div>
-                  <h3>Повне супроводження</h3>
+                  <h3>Доставка авіа та розмитнення</h3>
                 </div>                    
               </div>
             </div>  
@@ -254,45 +254,70 @@
 
       <!--Collaboration process-->
       <section class="collaboration">
-        <h2>Процес співпраці з нами</h2>
-        <div class="container my-5">
-          <div class="row text-center align-items-center">
-              <div class="col">
-                  <div class="circle">Залишаєте заявку</div>
-              </div>
-              <div class="col">
-                  <div class="arrow">→</div>
-              </div>
-              <div class="col">
-                  <div class="circle">Узгоджуємо тарифи та терміни</div>
-              </div>
-              <div class="col">
-                  <div class="arrow">→</div>
-              </div>
-              <div class="col">
-                  <div class="circle">Отримуємо вантаж на склад</div>
-              </div>
-              <div class="col">
-                  <div class="arrow">→</div>
-              </div>
-              <div class="col">
-                  <div class="circle">Відправляємо вантаж в Україну</div>
-              </div>
-              <div class="col">
-                  <div class="arrow">→</div>
-              </div>
-              <div class="col">
-                  <div class="circle">Розмитнюємо вантаж</div>
-              </div>
-              <div class="col">
-                  <div class="arrow">→</div>
-              </div>
-              <div class="col">
-                  <div class="circle">Передача товару, сплата за послуги</div>
-              </div>
+        <div class="container collaboration-container">
+          <h2 class="collaboration-title">Процес співпраці з нами</h2>
+          <div class="collaboration-wrapper">
+            <canvas id="canvas" width="760"></canvas>
+            <ul class="collaboration-list">
+              <li class="collaboration-item">
+                <div class="icon-wrapper">
+                  <svg class="collaboration-icon">
+                    <use class="collaboration-icon" href="./images/icon-step.svg#icon-step1"></use>
+                  </svg>
+                </div>
+                <h3>Крок 1</h3>
+                <p>Ви залишаєте заявку</p>
+              </li>
+              <li class="collaboration-item">
+                <div class="icon-wrapper">
+                  <svg class="collaboration-icon">
+                    <use href="./images/icon-step.svg#icon-step2"></use>
+                  </svg>
+                </div>
+                <h3>Крок 2</h3>
+                <p>Узгоджуємо терміни і тарифи. Оформлюємо документи</p>
+              </li>
+              <li class="collaboration-item">
+                <div class="icon-wrapper">
+                  <svg class="collaboration-icon">
+                    <use href="./images/icon-step.svg#icon-step3"></use>
+                  </svg>
+                </div>
+                <h3>Крок 3</h3>
+                <p>Отримуємо вантаж на склад, повідомляємо фактичні параметри</p>
+              </li>
+              <li class="collaboration-item">
+                <div class="icon-wrapper">
+                  <svg class="collaboration-icon">
+                    <use href="./images/icon-step.svg#icon-step4"></use>
+                  </svg>
+                </div>
+                <h3>Крок 4</h3>
+                <p>Відправляємо вантаж в Україну</p>
+              </li>
+              <li class="collaboration-item">
+                <div class="icon-wrapper">
+                  <svg class="collaboration-icon">
+                    <use href="./images/icon-step.svg#icon-step5"></use>
+                  </svg>
+                </div>
+                <h3>Крок 5</h3>
+                <p>Розмитнюємо вантаж</p>
+              </li>
+              <li class="collaboration-item">
+                <div class="icon-wrapper">
+                  <svg class="collaboration-icon">
+                    <use href="./images/icon-step.svg#icon-step6"></use>
+                  </svg>
+                </div>
+                <h3>Крок 6</h3>
+                <p>Наш менеджер зв’язується з вами для передачі товару і оплати доставки</p>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
+
 
     <?php
     $filename = 'data.txt';
@@ -579,6 +604,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
   <script src="./js/main.js"></script>
+  <script src="./js/canvas.js"></script>
 </body>
 
 </html>
