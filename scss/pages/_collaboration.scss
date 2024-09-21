@@ -69,6 +69,7 @@
     justify-content: center;
     border: solid #e1ff03 2px;
     border-radius: 50%;
+    overflow: visible;
 }
 .collaboration-icon {
     width: 36px;
@@ -90,5 +91,6 @@
   
  
   .collaboration-item:hover .collaboration-icon {
+    transform-origin: center;
     animation: pulse 1s infinite; 
   }
