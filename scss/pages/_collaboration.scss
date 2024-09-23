@@ -1,14 +1,15 @@
 .collaboration {
     margin-top: 100px;
+    text-align: center;
 }
 .collaboration-container{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
     padding-left: 15px;
     padding-right: 15px;
     h2 {
-        font-size: 32px;
+        font-size: 36px;
         margin-bottom: 70px;
     }
 }
@@ -16,17 +17,18 @@
 .collaboration-icon {
     fill: #e1ff03; 
 }
-#canvas {
-    width: 100%;
-    display: block;
-    left: 55px;
-    position: absolute;
-    top: 120px;
-}
 .collaboration-wrapper {
     box-sizing: border-box;
     position: relative;
 }
+#canvas {
+    width: 100%;
+    display: block;
+    left: 100px;
+    position: absolute;
+    top: 140px;
+}
+
 .collaboration-list {
     display: flex;
     flex-direction: row;
@@ -36,22 +38,22 @@
     width: 100%;
 }
 .collaboration-item {
+    max-height: 900px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 17px;
     transition: transform 0.3s ease;
     h3 {
         color: #e1ff03;
         font-size: 16px;
         font-weight: 600;
         text-align: center;
+        padding-top: 60px;
     }
     p {
         margin-top: 10px;
         color: #fff;
-        font-size: 14px;
+        font-size: 20px;
         font-weight: 400;
         line-height: 1;
         text-align: center;
@@ -62,8 +64,8 @@
     transform: scale(1.1);
   }
 .icon-wrapper {
-    width: 70px;
-    height: 70px;
+    width: 120px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,8 +74,8 @@
     overflow: visible;
 }
 .collaboration-icon {
-    width: 36px;
-    height: 35px;
+    width: 61px;
+    height: 60px;
 }
 
 
@@ -93,4 +95,10 @@
   .collaboration-item:hover .collaboration-icon {
     transform-origin: center;
     animation: pulse 1s infinite; 
+  }
+
+  @media(max-width: 960px){
+    .collaboration-wrapper {
+        display: none;
+    }
   }
