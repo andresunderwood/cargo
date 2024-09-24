@@ -543,6 +543,13 @@ footer {
   border: 2px solid #e1ff03;
 }
 
+.form {
+  border-radius: 18px;
+  box-shadow: 4px -4px 73px 2px rgba(225, 255, 3, 0.65);
+  -webkit-box-shadow: 4px -4px 73px 2px rgba(225, 255, 3, 0.65);
+  -moz-box-shadow: 4px -4px 73px 2px rgba(225, 255, 3, 0.65);
+}
+
 .accordion-item {
   background-color: #212121;
 }
