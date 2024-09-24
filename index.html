@@ -356,16 +356,43 @@
       <!-- Contact form -->
       <section id="contact-form" class="contact-form-section section" data-bs-theme="dark">
         <div class="container">
-          <div class="row d-flex justify-content-center">
-            <div class="col-md-7">
+          <div class="row d-flex justify-content-center gap-3">
+            <div class="col-md-6 contacts-button">
               <h2>Наші контакти</h2>
-              <div class="header-top-phone d-flex align-items-center gap-1">
+              <div class="email-contacts d-flex gap-3 align-items-center mb-3"> 
+                <svg class="contact-form-icon">
+                  <use class="contact-form-icon" href="./images/icon-step.svg#icon-step1"></use>
+                </svg>              
+                <a class="button-link" aria-current="page" href="mailto:Office@easycargo.ua">Office@easycargo.ua</a>
+              </div>
+              <div class="header-top-phone d-flex align-items-center gap-3 mb-3">
                 <a class="nav-link" aria-current="page" href="https://wa.me/380987808008"><i class="fa-brands fa-whatsapp header-social-icon"></i></a>
                 <a class="nav-link" aria-current="page" href="https://t.me/+380987808008"><i class="fa-brands fa-telegram header-social-icon"></i></a>
                 <svg width="16" height="16" class="header-social-icon">
                   <use href="./images/symbol-defs.svg#icon-phone"></use>
                 </svg>
-                <a class="nav-link" aria-current="page" href="tel:+380987808008">+380987808008</a>
+                <a class="button-link" aria-current="page" href="tel:+380987808008">+380987808008</a>
+              </div>
+              <h4 class="mb-3">
+                <span class="span-icon-before">
+                  <svg width="24" height="24" class="main-svg-icon">
+                    <use href="./images/symbol-defs.svg#icon-clock"></use>
+                  </svg>
+                </span>
+                24/7 Консультації
+              </h4>
+              <div class="button-social-icons">
+                <ul class="social-icons d-flex gap-3">
+                  <li><a href="https://www.instagram.com/easycargo.ua/">
+                    <i class="fa-brands fa-instagram header-social-icon"></i>
+                  </a></li>
+                  <li><a href="https://www.facebook.com/easycargoua">
+                    <i class="fa-brands fa-facebook-f header-social-icon"></i>
+                  </a></li>
+                  <li><a href="">
+                    <i class="fa-brands fa-linkedin-in header-social-icon"></i>
+                  </a></li>
+                </ul>
               </div>
             </div>
             <div class="col-md-5">
@@ -388,7 +415,7 @@
                   <input type="checkbox" class="form-check-input" id="exampleCheck1" />
                   <label class="form-check-label" for="exampleCheck1">Згода на обробку даних, згідно з політикою конфіденційності</label>
                 </div>
-                <button type="submit" class="btn btn-primary" id="submitButton" disabled>Відправити запит</button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Відправити запит</button>
               </form>
             </div>
           </div>
