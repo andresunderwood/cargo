@@ -174,7 +174,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 order-xl-0 my-3 hero-section-left">
-              <h1>Доставка!!! з Китаю в Україну авіа</h1>
+              <h1>Доставка з Китаю в Україну авіа</h1>
               <h4>
                 <span class="span-icon-before">
                   <svg width="24" height="24" class="main-svg-icon">
