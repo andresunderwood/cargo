@@ -19,18 +19,21 @@
     height: 100%;
     cursor: pointer;
     transition: box-shadow 500ms ease;
+    will-change: box-shadow;
     h3 {
         position: relative;
         color: white; 
         z-index: 1;
         margin-bottom: 15px;
         transition: transform 500ms ease;
+        will-change: transform;
     }
     p {
         color: white; 
         opacity: 0; 
         transform: translateY(20px); 
         transition: transform 500ms ease, opacity 500ms ease;
+        will-change: transform, opacity;
     }
 }
 .services-img{
@@ -46,6 +49,7 @@
     object-position: center;
     display: block;
     transition: transform 500ms ease;
+    will-change: transform;
     
 }
 .item:hover {
