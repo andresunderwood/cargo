@@ -91,7 +91,9 @@
                 <a class="nav-link" href="#contact-form">Контакти</a>
               </li>
               <li class="nav-item nav-item-lg">
-                <a class="nav-link active" href="/ua">UA</a><span>| RU</span>
+                <a class="nav-link active" href="index.php">UA</a>
+                <span>|</span>
+                <a class="nav-link" href="index-ru.php">RU</a>
               </li>
             </ul>
           </div>
@@ -268,7 +270,7 @@
               <div class="col-lg-3 col-sm-6">
                 <div class="item">
                   <div class="services-img">
-                    <img src="./images/search.jpg" alt="">
+                    <img src="./images/search (2).jpg" alt="">
                   </div>
                   <h3>Пошук товарів в Китаї</h3>
                   <div class="overlay">
