@@ -29,12 +29,12 @@
     <div id="hero" class="header-top py-2">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-4 d-flex justify-content-center">
+          <div class=" logo col-xl-4 d-flex">
             <a class="navbar-brand" href="#"></a>
               <img src="./images/logo.svg" alt="" />
             </a>
           </div>
-          <div class="col-md-2 d-flex align-items-center justify-content-end">
+          <div class="col-xl-2 d-flex align-items-center justify-content-end">
             <div class="header-top-phone d-flex align-items-center gap-1">
               <a class="nav-link" aria-current="page" href="https://wa.me/380987808008"><i class="fa-brands fa-whatsapp header-social-icon"></i></a>
               <a class="nav-link" aria-current="page" href="https://t.me/+380987808008"><i class="fa-brands fa-telegram header-social-icon"></i></a>
@@ -44,22 +44,22 @@
               <a class="nav-link" aria-current="page" href="tel:+380987808008">+380987808008</a>
             </div>
           </div>
-          <div class="col-md-2 d-flex justify-content-end align-items-center">
-            <ul class="social-icons d-flex gap-3">
+          <div class="col-xl-2 d-flex justify-content-end align-items-center">
+            <ul class="d-flex gap-3">
               <li><a href="https://www.instagram.com/easycargo.ua/">
-                <i class="fa-brands fa-instagram header-social-icon"></i>
+                <i class="fa-brands fa-instagram social-icon"></i>
               </a></li>
               <li><a href="https://www.facebook.com/easycargoua">
-                <i class="fa-brands fa-facebook-f header-social-icon"></i>
+                <i class="fa-brands fa-facebook-f social-icon"></i>
               </a></li>
               <li><a href="">
-                <i class="fa-brands fa-linkedin-in header-social-icon"></i>
+                <i class="fa-brands fa-linkedin-in social-icon"></i>
               </a></li>
             </ul>
           </div>
-          <div class="col-md-4 d-flex justify-content-end gap-2">
-            <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#deliveryCalculationModal">Вартість доставки</button>
-            <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Відстежити</button> 
+          <div class="col-xl-4 d-flex justify-content-end gap-2">
+            <button class=" header-button btn btn-primary " type="button" data-bs-toggle="modal" data-bs-target="#deliveryCalculationModal">Вартість доставки</button>
+            <button class=" header-button btn btn-primary " type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Відстежити</button> 
           </div>
         </div>
       </div>
@@ -91,11 +91,26 @@
                 <a class="nav-link" href="#contact-form">Контакти</a>
               </li>
               <li class="nav-item nav-item-lg">
-                <a class="nav-link active" href="index.php">UA</a>
+                <a class="nav-link active" href="index.html">UA</a>
                 <span>|</span>
-                <a class="nav-link" href="index-ru.php">RU</a>
+                <a class="nav-link" href="index-ru.html">RU</a>
               </li>
             </ul>
+            <div class="secret">
+              <ul class="d-flex gap-3">
+                <li><a href="https://www.instagram.com/easycargo.ua/">
+                  <i class="fa-brands fa-instagram header-social-icon"></i>
+                </a></li>
+                <li><a href="https://www.facebook.com/easycargoua">
+                  <i class="fa-brands fa-facebook-f header-social-icon"></i>
+                </a></li>
+                <li><a href="">
+                  <i class="fa-brands fa-linkedin-in header-social-icon"></i>
+                </a></li>
+              </ul>
+              <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#deliveryCalculationModal">Вартість доставки</button>
+              <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Відстежити</button>
+            </div>
           </div>
         </div>
       </nav>      
@@ -254,7 +269,7 @@
           </div>  
           <div class="items">
             <div class="row"> 
-              <div class="col-lg-3 col-sm-6">
+              <div class="item-container col-lg-3 col-sm-6">
                 <div class="item">
                   <div class="services-img">
                     <img src="./images/business.jpg" alt="">
@@ -267,7 +282,7 @@
                   </div>                 
                 </div>                    
               </div> 
-              <div class="col-lg-3 col-sm-6">
+              <div class="item-container col-lg-3 col-sm-6">
                 <div class="item">
                   <div class="services-img">
                     <img src="./images/search (2).jpg" alt="">
@@ -278,7 +293,7 @@
                   </div>                 
                 </div>                    
               </div>
-              <div class="col-lg-3 col-sm-6">
+              <div class="item-container col-lg-3 col-sm-6">
                 <div class="item">
                   <div class="services-img">
                     <img src="./images/ship.jpg" alt="">
@@ -289,7 +304,7 @@
                   </div>                 
                 </div>
               </div>
-              <div class="col-lg-3 col-sm-6">
+              <div class="item-container col-lg-3 col-sm-6">
                 <div class="item">
                   <div class="services-img">
                     <img src="./images/airplane.jpg" alt="">
@@ -471,7 +486,7 @@
                 </svg>              
                 <a class="button-link" aria-current="page" href="mailto:Office@easycargo.ua">Office@easycargo.ua</a>
               </div>
-              <div class="header-top-phone d-flex align-items-center gap-3 mb-3">
+              <div class="d-flex align-items-center gap-3 mb-3">
                 <a class="nav-link" aria-current="page" href="https://wa.me/380987808008"><i class="fa-brands fa-whatsapp header-social-icon"></i></a>
                 <a class="nav-link" aria-current="page" href="https://t.me/+380987808008"><i class="fa-brands fa-telegram header-social-icon"></i></a>
                 <svg width="16" height="16" class="header-social-icon">
@@ -532,11 +547,11 @@
   <footer>
     <p>Ⓒ EasyCargo 2023 All rights reserved</p>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
-  <script src="./js/main.js"></script>
-  <script src="./js/canvas.js"></script>
+    <script src="./js/canvas.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

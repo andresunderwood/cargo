@@ -6,7 +6,7 @@
     }
 }
 .about-us-img{ 
-    height: 650px; 
+    min-height: 650px; 
     position: relative;
     overflow: hidden;
     border-radius: 10px;
@@ -40,4 +40,16 @@
     }
 
 
+}
+
+@media (max-width: 1024px) {
+    .about-us {
+        margin-top: 50px;
+    } 
+  }
+
+@media (max-width: 991px) {
+    .about-us {
+        margin-top: 50px;
+    } 
 }
