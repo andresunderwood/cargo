@@ -82,11 +82,7 @@
 .secret {
   display: none;
 }
-@media (max-width: 1024px) {
-  .header-top-phone {
-    
-  }
-}
+
 @media (max-width: 991px) {
   .secret {
     display: flex;
@@ -95,9 +91,33 @@
     align-items: center;
     gap: 15px;
   }
+  .header-top {
+    position: relative;
+  }
   .logo {
-   align-items: start;
-   justify-content: start; 
+    justify-content: start;  
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 100%; 
+    transition: all 0.3s ease; 
+  }
+
+  .logo.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    padding: 10px;
+    
+    width: 100%;
+    height: auto;
+  }
+  .navbar-nav {
+    margin: auto;
+    align-items: flex-start;
+    gap: 0;
+    
   }
   .header-top-phone {
     position: absolute;
@@ -111,8 +131,5 @@
     display: none;
   }
     
-  
-  .navbar-nav {
-    margin: auto;
-  }
 }
+

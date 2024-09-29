@@ -100,7 +100,7 @@
   }
   
   h1 {
-    font-size: 28px;
+    font-size: 36px;
   }
 
   .hero-section-left,
@@ -109,8 +109,8 @@
   }
 
   .hero-search {
-    max-width: 180px;
-    padding: 10px 16px;
+    max-width: 100%;
+    
   }
 
   .hero-section h4 {
@@ -125,8 +125,9 @@
   }
 
   .hero-search {
-    max-width: 160px;
-    padding: 8px 12px;
+    max-width: 100%;
+    width: 100%;
+    
   }
 
   .hero-section h4 {

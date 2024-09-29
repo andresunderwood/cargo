@@ -42,6 +42,8 @@
 
 }
 
+
+
 @media (max-width: 1024px) {
     .about-us {
         margin-top: 50px;
@@ -52,4 +54,18 @@
     .about-us {
         margin-top: 50px;
     } 
+}
+
+@media (max-width: 576px) {
+    .about-us-img {
+        display: none;
+    } 
+    .list-advantages {
+        max-width: 100%;
+        width: 100%;
+    }
+    .advantages {
+        margin-bottom: 15px;
+    }
+   
 }

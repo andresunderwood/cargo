@@ -132,3 +132,15 @@
       }
     }
   }
+
+  @media (max-width: 576px) {
+    .collaboration-item {
+      max-width: 45%;
+      padding: 0;
+      margin-bottom: 15px;
+      h3 {
+        padding-top: 20px;
+      }
+    }
+   
+}
