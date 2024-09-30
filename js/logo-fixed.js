@@ -9,3 +9,6 @@ window.addEventListener('scroll', function() {
       logo.classList.remove('fixed');
     }
   });
+
+
+  

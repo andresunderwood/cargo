@@ -85,6 +85,11 @@
 #deliveryCalculationModal .btn-close {
   filter: invert(1); /* Преобразует цвет в противоположный, делая кнопку белой */
 }
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 100; /* Убедитесь, что меню имеет достаточно высокий z-index */
+}
 @media (max-width: 991px) {
   .secret {
     display: flex;
@@ -109,10 +114,9 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 2000;
-    padding: 10px;
-    
-    width: 100%;
+    z-index: 1000;
+    padding: 10px;    
+    max-width: 50%;
     height: auto;
   }
   .navbar-nav {

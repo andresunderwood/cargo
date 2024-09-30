@@ -166,7 +166,7 @@
             </form>
           </div>
           <div class="modal-footer d-flex justify-content-center">
-          <button type="submit" class="btn btn-primary" id="submitButton">Узнать стоимость</button>
+          <button type="submit" class="btn btn-primary" id="submitButtonTop">Узнать стоимость</button>
           </div>
         </div>
       </div>
