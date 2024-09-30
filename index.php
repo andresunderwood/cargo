@@ -166,7 +166,7 @@
             </form>
           </div>
           <div class="modal-footer d-flex justify-content-center">            
-            <button type="button" class="btn btn-primary">Дізнатися вартість</button>
+            <button type="submit" class="btn btn-primary" id="submitButton">Дізнатися вартість</button>
           </div>
         </div>
       </div>
@@ -204,7 +204,7 @@
                 10-14 днів
               </h4>
               <div class="hero-search">
-                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Дізнатися тариф</button>
+                <a href="#contact-form"><button type="button" class="btn btn-dark">Дізнатися тариф</button></a>               
               </div>
             </div>
             <div class="col-md-6 order-xl-0 my-3 hero-section-right">
@@ -218,7 +218,7 @@
                 65-70 днів
               </h4>
               <div class="hero-search">
-                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Дізнатися тариф</button>
+                <a href="#contact-form"><button type="button" class="btn btn-dark">Дізнатися тариф</button></a>               
               </div>
             </div>
           </div>
@@ -517,29 +517,28 @@
               </div>
             </div>
             <div class="col-md-5 form">
-              <h2>Оформити заявку</h2>
-              <p>Заповніть форму, щоб наш менеджер зв'язався з Вами!</p>
-              <form action="sendmail.php" method="post">
-                <div class="mb-3">
-                  <label for="exampleInputName1" class="form-label">Ім'я</label>
-                  <input type="text" class="form-control" id="exampleInputName1" name="exampleInputName1" />
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPhone1" class="form-label">Телефон</label>
-                  <input type="text" class="form-control" id="exampleInputPhone1" name="exampleInputPhone1" />
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Електронна пошта</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="exampleInputEmail1" />
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-                  <label class="form-check-label" for="exampleCheck1">Згода на обробку даних, згідно з політикою конфіденційності</label>
-                </div>
-                <button class="btn btn-primary mb-3" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Відправити запит</button>
-              </form>
+            <h2>Оформити заявку</h2>
+            <p>Заповніть форму, щоб наш менеджер зв'язався з Вами!</p>
+            <form action="sendmail.php" method="post">
+              <div class="mb-3">
+                <label for="exampleInputName1" class="form-label">Ім'я</label>
+                <input type="text" class="form-control" id="exampleInputName1" name="exampleInputName1"/>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPhone1" class="form-label">Телефон</label>
+                <input type="text" class="form-control" id="exampleInputPhone1" name="exampleInputPhone1"/>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Електронна пошта</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="exampleInputEmail1"/>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
+                <label class="form-check-label" for="exampleCheck1">Згода на обробку даних, згідно з політикою конфіденційності</label>
+              </div>
+              <button type="submit" class="btn btn-primary mb-3" id="submitButton" disabled>Відправити запит</button>
+            </form>
             </div>
-          </div>
         </div>
       </section>
   </main>
@@ -547,11 +546,11 @@
   <footer>
     <p>Ⓒ EasyCargo 2023 All rights reserved</p>
   </footer>
+    <script src="./js/main.js"></script>
     <script src="./js/canvas.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>   
     <script src="./js/logo-fixed.js"></script>
 </body>
 

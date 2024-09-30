@@ -82,7 +82,9 @@
 .secret {
   display: none;
 }
-
+#deliveryCalculationModal .btn-close {
+  filter: invert(1); /* Преобразует цвет в противоположный, делая кнопку белой */
+}
 @media (max-width: 991px) {
   .secret {
     display: flex;

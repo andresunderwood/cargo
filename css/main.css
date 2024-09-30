@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
 html {
   box-sizing: border-box;
@@ -229,6 +230,10 @@ p {
 
 .secret {
   display: none;
+}
+
+#deliveryCalculationModal .btn-close {
+  filter: invert(1); /* Преобразует цвет в противоположный, делая кнопку белой */
 }
 
 @media (max-width: 991px) {

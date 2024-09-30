@@ -166,7 +166,7 @@
             </form>
           </div>
           <div class="modal-footer d-flex justify-content-center">
-            <button type="button" class="btn btn-primary">Узнать стоимость</button>
+          <button type="submit" class="btn btn-primary" id="submitButton">Узнать стоимость</button>
           </div>
         </div>
       </div>
@@ -204,7 +204,7 @@
                 10-14 дней
               </h4>
               <div class="hero-search">
-                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Узнать тариф</button>
+                <a href="#contact-form"><button type="button" class="btn btn-dark">Узнать тариф</button></a>               
               </div>
             </div>
             <div class="col-md-6 order-xl-0 my-3 hero-section-right">
@@ -218,7 +218,7 @@
                 65-70 дней
               </h4>
               <div class="hero-search">
-                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Узнать тариф</button>
+                <a href="#contact-form"><button type="button" class="btn btn-dark">Узнать тариф</button></a>               
               </div>
             </div>
           </div>
@@ -540,7 +540,7 @@
                   <input type="checkbox" class="form-check-input" id="exampleCheck1" />
                   <label class="form-check-label" for="exampleCheck1">Согласие на обработку данных, согласно политике конфиденциальности</label>
                 </div>
-                <button class="btn btn-primary mb-3" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Отправить заявку</button>
+                <button type="submit" class="btn btn-primary mb-3" id="submitButton" disabled>Отправить заявку</button>
               </form>
             </div>
           </div>
