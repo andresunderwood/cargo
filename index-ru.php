@@ -91,9 +91,9 @@
               <a class="nav-link" href="#contact-form">Контакты</a>
             </li>
             <li class="nav-item nav-item-lg">
-              <a class="nav-link" href="index.html">UA</a>
+              <a class="nav-link" href="index.php">UA</a>
               <span>|</span>
-              <a class="nav-link active" href="index-ru.html">RU</a>
+              <a class="nav-link active" href="index-ru.php">RU</a>
             </li>
           </ul>
           <div class="secret">
@@ -134,6 +134,14 @@
               <div class="form-check">
                 <input class="form-check-input" type="radio" name="deliveryMethod" id="seaAuto" value="sea-auto">
                 <label class="form-check-label" for="seaAuto">Море - Авто (60 - 65 дней)</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="deliveryMethod" id="seaAuto" value="sea-auto">
+                <label class="form-check-label" for="seaAuto">Доставка из Китая в Европу</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="deliveryMethod" id="seaAuto" value="sea-auto">
+                <label class="form-check-label" for="seaAuto">Доставка сборных грузов (LCL)</label>
               </div>
             </div>
             <div class="mb-3">
@@ -270,7 +278,7 @@
         </div>
         <div class="items">
           <div class="row">
-            <div class="item-container col-lg-3 col-sm-6">
+            <div class="item-container col-lg-4 col-sm-6">
               <div class="item">
                 <div class="services-img">
                   <img src="./images/business1.jpg" alt="">
@@ -283,7 +291,7 @@
                 </div>
               </div>
             </div>
-            <div class="item-container col-lg-3 col-sm-6">
+            <div class="item-container col-lg-4 col-sm-6">
               <div class="item">
                 <div class="services-img">
                   <img src="./images/search1.jpg" alt="">
@@ -294,7 +302,7 @@
                 </div>
               </div>
             </div>
-            <div class="item-container col-lg-3 col-sm-6">
+            <div class="item-container col-lg-4 col-sm-6">
               <div class="item">
                 <div class="services-img">
                   <img src="./images/ship1.jpg" alt="">
@@ -305,7 +313,9 @@
                 </div>
               </div>
             </div>
-            <div class="item-container col-lg-3 col-sm-6">
+          </div>
+          <div class="row">
+            <div class="item-container col-lg-4 col-sm-6">
               <div class="item">
                 <div class="services-img">
                   <img src="./images/airplane1.jpg" alt="">
@@ -313,6 +323,28 @@
                 <h3>Доставка авиа и таможенное оформление</h3>
                 <div class="overlay">
                   <p>Быстрый и надежный вариант для срочных грузов.</p>
+                </div>
+              </div>
+            </div>
+            <div class="item-container col-lg-4 col-sm-6">
+              <div class="item">
+                <div class="services-img">
+                  <img src="./images/pexels-dibert-11172101.jpg" alt="">
+                </div>
+                <h3>Доставка из Китая в Европу</h3>
+                <div class="overlay">
+                  <p>Услуга, созданная для бизнеса, который перенёс свои операции в Европу и нуждается в надёжной логистике. Мы обеспечиваем быстрые и безопасные поставки товаров напрямую из Китая с полным сопровождением на всех этапах транспортировки.</p>
+                </div>
+              </div>
+            </div>
+            <div class="item-container col-lg-4 col-sm-6">
+              <div class="item">
+                <div class="services-img">
+                  <img src="./images/pexels-tomfisk-14271071.jpg" alt="">
+                </div>
+                <h3>Доставка сборных грузов (LCL)</h3>
+                <div class="overlay">
+                  <p>Это небольшие партии товаров от разных заказчиков, транспортируемые в одном контейнере. Данная услуга необходима предпринимателям, чья деятельность предполагает регулярную перевозку различных товаров небольшими партиями. Транспортировка сборных грузов позволяет привезти пробную партию для оценки экономической целесообразности работы с товаром или доставки образцов для проверки их качества, при этом расходы на доставку и таможенное оформление существенно ниже, чем при работе с большими объемами.</p>
                 </div>
               </div>
             </div>
@@ -566,7 +598,7 @@
         </div>
         <div class="row">
           <div class="col-md-4 warehouse-img">
-            <img src="./images/pexels-tiger-lily-4483610.jpg" alt="Склад">
+            <img src="./images/pexels-elevate-1267338.jpg" alt="Склад">
           </div>
           <div class="col-md-4">
             <div class="address-map mb-3">
@@ -588,6 +620,39 @@
           <div class="col-md-4 warehouse-map" id="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1060.573988330868!2d113.1414544701116!3d23.028830379639913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z5YyX5Lqs5biC5pyd6Ziz5Yy66b6Z5rOw5bel5Lia5aSn5Y6mNjAy5LuT5bqT5L2b5bGx5biC5Y2X5rW35Yy66ZqP5rK_6LevOTHlj7c!5e0!3m2!1suk!2sua!4v1727784529264!5m2!1suk!2sua"
               width="414" height="276" style="border-radius: 9px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="container warehouse-container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="section-title"><span>Склад Easy Cargo (Yuan)</span></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 warehouse-img">
+            <img src="./images/pexels-tiger-lily-4483610.jpg" alt="Склад">
+          </div>
+          <div class="col-md-4">
+            <div class="address-map mb-3">
+              <h4>
+                <span>
+                  <i class="fa-solid fa-location-dot contact-form-icon"></i>
+                </span>
+                Address: 1117 Yongjun Road, Yiwu City, Zhejiang Province
+                1117号圣蝶公司院内丰通国际贸易有限公司 陈 18957992095
+              </h4>
+            </div>
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <svg width="16" height="16" class="contact-form-icon">
+                <use href="./images/symbol-defs.svg#icon-phone"></use>
+              </svg>
+              <a class="button-link" aria-current="page" href="#">189 5799 2095</a>
+            </div>
+          </div>
+          <div class="col-md-4 warehouse-map" id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d888686.4463451261!2d119.66213882345507!3d29.532927725315282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x344956b0f0bd475d%3A0xd281c17b60d14fb0!2zWW9uZyBKdW4gTHUsIFpoZSBKaWFuZyBTaGVuZywg0JrQuNGC0LDQuQ!5e0!3m2!1suk!2sua!4v1727881276445!5m2!1suk!2sua"
+              width="414" height="276" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
