@@ -90,11 +90,7 @@
             <li class="nav-item">
               <a class="nav-link" href="#contact-form">Контакты</a>
             </li>
-            <li class="nav-item nav-item-lg">
-              <a class="nav-link" href="index.php">UA</a>
-              <span>|</span>
-              <a class="nav-link active" href="index-ru.php">RU</a>
-            </li>
+            <li class="nav-item nav-item-lg"><a class="nav-link active" href="/">UA</a><span>| RU</span></li>
           </ul>
           <div class="secret">
             <ul class="d-flex gap-3">
