@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="./css/main.min.css" />
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-347307259"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SYEDDCJD6B"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -20,7 +20,7 @@
     }
     gtag('js', new Date());
 
-    gtag('config', 'AW-347307259');
+    gtag('config', 'G-SYEDDCJD6B');
   </script>
 </head>
 
@@ -621,7 +621,7 @@
       <div class="container warehouse-container">
         <div class="row">
           <div class="col-12">
-            <h2 class="section-title"><span>Склад Easy Cargo (Yuan)</span></h2>
+            <h2 class="section-title"><span>Склад Easy Cargo (Yiwu)</span></h2>
           </div>
         </div>
         <div class="row">
@@ -647,7 +647,7 @@
           </div>
           <div class="col-md-4 warehouse-map" id="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d888686.4463451261!2d119.66213882345507!3d29.532927725315282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x344956b0f0bd475d%3A0xd281c17b60d14fb0!2zWW9uZyBKdW4gTHUsIFpoZSBKaWFuZyBTaGVuZywg0JrQuNGC0LDQuQ!5e0!3m2!1suk!2sua!4v1727881276445!5m2!1suk!2sua"
-              width="414" height="276" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              width="414" height="276" style="border-radius: 9px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
