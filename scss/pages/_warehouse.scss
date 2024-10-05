@@ -62,7 +62,7 @@
         padding-bottom: 50px;
         
     }
-  
+    
     .warehouse-map {
       margin-top: 20px;
       width: 100%;
@@ -86,6 +86,9 @@
     .address-map h4 {
       text-align: center;
     }
+    .phone-map {
+      text-align: center;
+    }
   }
   
   
@@ -102,6 +105,11 @@
   
     .address-map h4 {
       font-size: 1rem;
+      text-align: center;
+      
+    }
+    .phone-map {
+      justify-content: center;
     }
   
     .button-link {

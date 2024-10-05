@@ -30,7 +30,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class=" logo col-xl-4 d-flex">
-          <a class="navbar-brand" href="#"></a>
+          <a class="navbar-brand" href="#hero"></a>
           <img src="./images/logo.svg" alt="" />
           </a>
         </div>
@@ -44,8 +44,8 @@
             <a class="nav-link" aria-current="page" href="tel:+380987808008">+380987808008</a>
           </div>
         </div>
-        <div class="col-xl-2 d-flex justify-content-end align-items-center">
-          <ul class="d-flex gap-3">
+        <div class="col-xl-2 d-flex justify-content-end align-items-center header-top-social-icons">
+          <ul class="d-flex">
             <li><a href="https://www.instagram.com/easycargo.ua/">
                 <i class="fa-brands fa-instagram social-icon"></i>
               </a></li>
@@ -66,7 +66,7 @@
   </div>
   <header class="sticky-top">
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-      <div class="container-fluid">
+      <div class="container-fluid position-relative">
         <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -601,7 +601,7 @@
                 北京市朝阳区龙泰工业大厦602仓库佛山市南海区随沿路91号
               </h4>
             </div>
-            <div class="d-flex align-items-center gap-3 mb-3">
+            <div class="d-flex align-items-center gap-3 mb-3 phone-map">
               <svg width="16" height="16" class="contact-form-icon">
                 <use href="./images/symbol-defs.svg#icon-phone"></use>
               </svg>
@@ -634,7 +634,7 @@
                 1117号圣蝶公司院内丰通国际贸易有限公司 陈 18957992095
               </h4>
             </div>
-            <div class="d-flex align-items-center gap-3 mb-3">
+            <div class="d-flex align-items-center gap-3 mb-3 phone-map">
               <svg width="16" height="16" class="contact-form-icon">
                 <use href="./images/symbol-defs.svg#icon-phone"></use>
               </svg>

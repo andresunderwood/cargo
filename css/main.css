@@ -236,13 +236,27 @@ p {
   filter: invert(1); /* Преобразует цвет в противоположный, делая кнопку белой */
 }
 
-.sticky-header {
+.sticky-top {
   position: sticky;
   top: 0;
-  z-index: 1060; /* Убедитесь, что меню имеет достаточно высокий z-index */
+  z-index: 6000;
+}
+
+.header-top-social-icons ul {
+  gap: 1rem;
 }
 
 @media (max-width: 991px) {
+  .header-top {
+    position: sticky;
+    top: 0;
+    z-index: 6000;
+  }
+  .sticky-top {
+    position: sticky;
+    top: 98px;
+    z-index: 6000;
+  }
   .secret {
     display: flex;
     flex-direction: column;
@@ -250,25 +264,31 @@ p {
     align-items: center;
     gap: 15px;
   }
-  .header-top {
-    position: relative;
+  .secret button {
+    max-width: 100%;
+    width: 100%;
   }
   .logo {
     justify-content: start;
     position: absolute;
     top: 20px;
     left: 0px;
-    width: 100%;
+    width: auto;
     transition: all 0.3s ease;
   }
-  .logo.fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 2000;
-    padding: 10px;
-    max-width: 50%;
-    height: auto;
+  /*.header-top-social-icons {
+    position: absolute;
+    top: 20px;
+    right: 65px;
+    ul {
+      gap: 5px;
+    }
+  }*/
+  .navbar-toggler {
+    position: fixed; /* Абсолютное позиционирование */
+    top: 15px; /* На уровне логотипа */
+    right: 10px; /* Отступ справа */
+    z-index: 9000; /* Для правильного отображения поверх других элементов */
   }
   .navbar-nav {
     margin: auto;
@@ -278,12 +298,12 @@ p {
   .header-top-phone {
     position: absolute;
     top: 65%;
-    right: 15px;
-  }
-  .social-icon {
-    display: none;
+    left: 10px;
   }
   .header-button {
+    display: none;
+  }
+  .social-icon {
     display: none;
   }
 }
@@ -990,6 +1010,9 @@ footer {
   .address-map h4 {
     text-align: center;
   }
+  .phone-map {
+    text-align: center;
+  }
 }
 @media (max-width: 576px) {
   .section-title {
@@ -1002,6 +1025,10 @@ footer {
   }
   .address-map h4 {
     font-size: 1rem;
+    text-align: center;
+  }
+  .phone-map {
+    justify-content: center;
   }
   .button-link {
     font-size: 1rem;
