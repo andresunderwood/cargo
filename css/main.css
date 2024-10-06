@@ -239,7 +239,6 @@ p {
 .sticky-top {
   position: sticky;
   top: 0;
-  z-index: 6000;
 }
 
 .header-top-social-icons ul {
@@ -250,12 +249,10 @@ p {
   .header-top {
     position: sticky;
     top: 0;
-    z-index: 6000;
   }
   .sticky-top {
     position: sticky;
     top: 98px;
-    z-index: 6000;
   }
   .secret {
     display: flex;
@@ -276,14 +273,6 @@ p {
     width: auto;
     transition: all 0.3s ease;
   }
-  /*.header-top-social-icons {
-    position: absolute;
-    top: 20px;
-    right: 65px;
-    ul {
-      gap: 5px;
-    }
-  }*/
   .navbar-toggler {
     position: fixed; /* Абсолютное позиционирование */
     top: 15px; /* На уровне логотипа */

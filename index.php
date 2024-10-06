@@ -111,6 +111,7 @@
       </div>
     </nav>
   </header>
+  <!---------------------------------------------Modal windows------------------------------->
   <!-- deliveryCalculationModal -->
   <div class="modal fade" id="deliveryCalculationModal" tabindex="-1" aria-labelledby="deliveryCalculationModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -175,6 +176,7 @@
       </div>
     </div>
   </div>
+
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -191,6 +193,58 @@
       </div>
     </div>
   </div>
+
+  <!-- Form submission error -->
+  <div class="modal fade" id="errorModal" tabindex="-1" aria-labelledby="errorModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="errorModalLabel">Помилка заповнення форми</h5>
+        </div>
+        <div class="modal-body">
+          Будь ласка, заповніть всі поля форми.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрити</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Successful submission -->
+  <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="successModalLabel">Успіх</h5>
+        </div>
+        <div class="modal-body">
+          Email відправлено успішно!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрити</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Request submission error -->
+  <div class="modal fade" id="customErrorModal" tabindex="-1" aria-labelledby="customErrorModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="customErrorModalLabel">Помилка</h5>
+        </div>
+        <div class="modal-body" id="customErrorMessage">
+          Сталася помилка під час відправки запиту.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрити</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Main -->
   <main>
     <!-- Hero -->

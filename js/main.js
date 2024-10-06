@@ -25,11 +25,12 @@ $(document).ready(function () {
     var phoneValue = $('#exampleInputPhone1').val()
     var emailValue = $('#exampleInputEmail1').val()
 
+
     // Перевірка заповненості полів
     if (nameValue === '' || phoneValue === '' || emailValue === '') {
-      // Якщо хоча б одне поле не заповнено, відмінити відправку форми та вивести повідомлення про помилку
-      alert('Будь ласка, заповніть всі поля форми.')
-      return
+      const errorModal = new bootstrap.Modal(document.getElementById('errorModal'));
+      errorModal.show(); 
+      return; 
     }
 
     // Отримання даних форми
@@ -42,14 +43,16 @@ $(document).ready(function () {
       data: formData,
       success: function (response) {
         // Обробка відповіді
-        if (response == 'Повідомлення успішно надіслано') {
-          alert('Email відправлено успішно!')
+        if (response === 'Повідомлення успішно надіслано') {
+          $('#successModal').modal('show'); // Показать модальное окно успеха
         } else {
-          alert('Помилка: ' + response)
+          $('#customErrorMessage').text('Помилка: ' + response);
+          $('#customErrorModal').modal('show'); // Показать модальное окно ошибки
         }
       },
       error: function () {
-        alert('Сталася помилка під час відправки запиту.')
+        $('#customErrorMessage').text('Сталася помилка під час відправки запиту.');
+        $('#customErrorModal').modal('show'); // Показать модальное окно ошибки
       },
     })
   })
