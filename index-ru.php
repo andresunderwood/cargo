@@ -36,12 +36,12 @@
         </div>
         <div class="col-xl-2 d-flex align-items-center justify-content-end">
           <div class="header-top-phone d-flex align-items-center gap-1">
-            <a class="nav-link" aria-current="page" href="https://wa.me/380987808008"><i class="fa-brands fa-whatsapp header-social-icon"></i></a>
-            <a class="nav-link" aria-current="page" href="https://t.me/+380987808008"><i class="fa-brands fa-telegram header-social-icon"></i></a>
+            <a class="nav-link" aria-current="page" href="https://wa.me/380505052888"><i class="fa-brands fa-whatsapp header-social-icon"></i></a>
+            <a class="nav-link" aria-current="page" href="https://t.me/+380505052888"><i class="fa-brands fa-telegram header-social-icon"></i></a>
             <svg width="16" height="16" class="header-social-icon">
               <use href="./images/symbol-defs.svg#icon-phone"></use>
             </svg>
-            <a class="nav-link" aria-current="page" href="tel:+380987808008">+380987808008</a>
+            <a class="nav-link" aria-current="page" href="tel:+380505052888">+380505052888</a>
           </div>
         </div>
         <div class="col-xl-2 d-flex justify-content-end align-items-center header-top-social-icons">
@@ -591,9 +591,9 @@
               <svg width="16" height="16" class="contact-form-icon">
                 <use href="./images/symbol-defs.svg#icon-phone"></use>
               </svg>
-              <a class="button-link" aria-current="page" href="tel:+380987808008">+380987808008</a>
-              <a class="nav-link" aria-current="page" href="https://wa.me/380987808008"><i class="fa-brands fa-whatsapp form-social-icon"></i></a>
-              <a class="nav-link" aria-current="page" href="https://t.me/+380987808008"><i class="fa-brands fa-telegram form-social-icon"></i></a>
+              <a class="button-link" aria-current="page" href="tel:+380505052888">+380505052888</a>
+              <a class="nav-link" aria-current="page" href="https://wa.me/380505052888"><i class="fa-brands fa-whatsapp form-social-icon"></i></a>
+              <a class="nav-link" aria-current="page" href="https://t.me/+380505052888"><i class="fa-brands fa-telegram form-social-icon"></i></a>
             </div>
             <div class="button-social-icons">
               <ul class="social-icons d-flex gap-3">
