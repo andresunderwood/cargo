@@ -2,7 +2,7 @@
 
 @import './base/reset';
 @import './base/common';
-// @import "./base/container";
+//@import "./base/container";
 @import './base/section';
 
 @import './components/btn';
@@ -12,8 +12,12 @@
 @import './layout/footer';
 
 @import './pages/hero';
+@import './pages/about_us';
+@import './pages/services';
+@import './pages/collaboration';
 @import './pages/nearest_container';
 @import './pages/stages_work';
 @import './pages/our_services';
 @import './pages/contact_form';
 @import './pages/faq';
+@import './pages/warehouse';

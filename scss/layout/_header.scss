@@ -1,3 +1,14 @@
+.header-top {
+  background-color: black;
+  min-height: 98px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.logo {
+  justify-content: center;
+}
+
 .nav-contact-icon {
   display: flex;
   justify-content: center;
@@ -13,8 +24,47 @@
   height: 30px;
   border-radius: 50%;
   padding: 4px;
+  
+}
+.social-icon {
+  fill: $mainColorElement;
+  border: 1px solid $mainColorElement;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 4px;
+  color: $mainColorElement;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  gap: 20px;
+  transition: all 500ms ease;
+}
+.social-icon:hover{
+  background-color: $mainColorElement;
+  color: black;
+  fill: black;
 }
 
+.header-social-icon {
+  fill: $mainColorElement;
+  border: 1px solid $mainColorElement;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 4px;
+  color: $mainColorElement;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  gap: 20px;
+  transition: all 500ms ease;
+}
+.header-social-icon:hover{
+  background-color: $mainColorElement;
+  color: black;
+  fill: black;
+}
 .nav-item-lg {
   display: flex;
   align-items: center;
@@ -23,3 +73,92 @@
 .nav-item span {
   color: var(--bs-nav-link-color);
 }
+.navbar-nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 40px;
+}
+.secret {
+  display: none;
+}
+#deliveryCalculationModal .btn-close {
+  filter: invert(1); /* Преобразует цвет в противоположный, делая кнопку белой */
+}
+
+.sticky-top {
+  position: sticky;
+  top: 0;
+  
+   
+}
+.header-top-social-icons {
+  ul {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 991px) {
+ 
+  .header-top {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    
+  }
+  .sticky-top {
+    position: sticky;
+    top: 98px;
+    
+  }
+  
+  .secret {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    button {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+  
+  .logo {
+    justify-content: start;  
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: auto; 
+    transition: all 0.3s ease; 
+  }
+  
+  .navbar-toggler {
+    position: fixed; /* Абсолютное позиционирование */
+    top: 15px; /* На уровне логотипа */
+    right: 10px; /* Отступ справа */
+    z-index: 9000; /* Для правильного отображения поверх других элементов */
+  }
+ 
+  .navbar-nav {
+    margin: auto;
+    align-items: flex-start;
+    gap: 0;
+    
+  }
+  .header-top-phone {
+    position: absolute;
+    top: 65%;
+    left: 10px;
+  }
+ 
+  .header-button {
+    display: none;
+    
+  }
+  .social-icon {
+    display: none;
+  }
+    
+}
+

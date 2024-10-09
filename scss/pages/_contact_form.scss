@@ -1,3 +1,54 @@
 .contact-form-section p {
   margin-bottom: 32px;
 }
+.contact-form-icon {
+  width: 24px;
+  height: 23px;
+  fill: rgb(255, 255, 255);
+}
+.button-link {
+  font-size: 1.5rem;
+}
+.btn-primary {
+  color: #000;
+  padding: 16px 24px;
+  background-color: #e1ff03;
+  border: 2px solid #e1ff03;
+}
+.form {
+  border-radius: 18px;
+  box-shadow: 4px -4px 73px 2px rgba(225,255,3,0.65);
+  -webkit-box-shadow: 4px -4px 73px 2px rgba(225,255,3,0.65);
+  -moz-box-shadow: 4px -4px 73px 2px rgba(225,255,3,0.65);
+  h2 {
+    margin-top: 10px;
+  }
+}
+
+
+.form-social-icon {
+  fill: $mainColorElement;
+  border: 1px solid $mainColorElement;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 4px;
+  color: $mainColorElement;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  gap: 20px;
+  transition: all 500ms ease;
+}
+.form-social-icon:hover{
+  background-color: $mainColorElement;
+  color: black;
+  fill: black;
+}
+@media (max-width: 576px) {
+  .form {
+    margin-top: 80px;
+    
+  }
+ 
+}

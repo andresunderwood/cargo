@@ -43,7 +43,7 @@ try {
 
     // Встановлення параметрів електронного листа
     $mail->setFrom($smtpUsername, $name);
-    $mail->addAddress('info@easycargo.ua', 'Recipient Name');
+    $mail->addAddress('office@easycargo.ua', 'Recipient Name');
     $mail->addBCC('andrey.belchev@gmail.com', 'BCC Recipient Name');
     $mail->isHTML(true);
     $mail->Subject = 'New Message from cargo.ua';

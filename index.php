@@ -6,11 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cargo</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/main.min.css" />
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-347307259"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SYEDDCJD6B"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -19,31 +20,69 @@
     }
     gtag('js', new Date());
 
-    gtag('config', 'AW-347307259');
+    gtag('config', 'G-SYEDDCJD6B');
   </script>
 </head>
 
 <body>
   <!-- Header -->
+  <div id="hero" class="header-top py-2">
+    <div class="container-fluid">
+      <div class="row">
+        <div class=" logo col-xl-4 d-flex">
+          <a class="navbar-brand" href="#hero"></a>
+          <img src="./images/logo.svg" alt="" />
+          </a>
+        </div>
+        <div class="col-xl-2 d-flex align-items-center justify-content-end">
+          <div class="header-top-phone d-flex align-items-center gap-1">
+            <a class="nav-link" aria-current="page" href="https://wa.me/380505052888"><i class="fa-brands fa-whatsapp header-social-icon"></i></a>
+            <a class="nav-link" aria-current="page" href="https://t.me/+380505052888"><i class="fa-brands fa-telegram header-social-icon"></i></a>
+            <svg width="16" height="16" class="header-social-icon">
+              <use href="./images/symbol-defs.svg#icon-phone"></use>
+            </svg>
+            <a class="nav-link" aria-current="page" href="tel:+380505052888">+380505052888</a>
+          </div>
+        </div>
+        <div class="col-xl-2 d-flex justify-content-end align-items-center header-top-social-icons">
+          <ul class="d-flex">
+            <li><a href="https://www.instagram.com/easycargo.ua/">
+                <i class="fa-brands fa-instagram social-icon"></i>
+              </a></li>
+            <li><a href="https://www.facebook.com/easycargoua">
+                <i class="fa-brands fa-facebook-f social-icon"></i>
+              </a></li>
+            <li><a href="">
+                <i class="fa-brands fa-linkedin-in social-icon"></i>
+              </a></li>
+          </ul>
+        </div>
+        <div class="col-xl-4 d-flex justify-content-end gap-2">
+          <button class=" header-button btn btn-primary " type="button" data-bs-toggle="modal" data-bs-target="#deliveryCalculationModal">Вартість доставки</button>
+          <button class=" header-button btn btn-primary " type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Відстежити</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <header class="sticky-top">
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="./images/logo.svg" alt="" />
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="container-fluid position-relative">
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll justify-content-center">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#nearest-container">Найближча відправка</a>
+              <a class="nav-link" aria-current="page" href="#hero">Головна</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#our-services">Чим ми кращі</a>
+              <a class="nav-link" href="#aboutUs">Про нас</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#stages-work">Етапи роботи</a>
+              <a class="nav-link" href="#services">Наші послуги</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#collaboration">Процес співпраці</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#faq">Запитання/відповіді</a>
@@ -51,30 +90,93 @@
             <li class="nav-item">
               <a class="nav-link" href="#contact-form">Контакти</a>
             </li>
-          </ul>
-
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item nav-contact-icon">
-              <svg width="16" height="16" class="header-contact-icon">
-                <use href="./images/symbol-defs.svg#icon-telegram"></use>
-              </svg>
-              <svg width="16" height="16" class="header-contact-icon">
-                <use href="./images/symbol-defs.svg#icon-phone"></use>
-              </svg>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="tel:+380987808008">+380987808008</a>
-            </li>
             <li class="nav-item nav-item-lg"><span>UA</span><a class="nav-link active" href="/ru">| RU</a></li>
           </ul>
-          <form class="d-flex" role="search">
-            <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" /> -->
-            <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Завантажити програму</button>
-          </form>
+          <div class="secret">
+            <ul class="d-flex gap-3">
+              <li><a href="https://www.instagram.com/easycargo.ua/">
+                  <i class="fa-brands fa-instagram header-social-icon"></i>
+                </a></li>
+              <li><a href="https://www.facebook.com/easycargoua">
+                  <i class="fa-brands fa-facebook-f header-social-icon"></i>
+                </a></li>
+              <li><a href="">
+                  <i class="fa-brands fa-linkedin-in header-social-icon"></i>
+                </a></li>
+            </ul>
+            <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#deliveryCalculationModal">Вартість доставки</button>
+            <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Відстежити</button>
+          </div>
         </div>
       </div>
     </nav>
   </header>
+  <!---------------------------------------------Modal windows------------------------------->
+  <!-- deliveryCalculationModal -->
+  <div class="modal fade" id="deliveryCalculationModal" tabindex="-1" aria-labelledby="deliveryCalculationModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="deliveryCalculationModalLabel">Дізнайтесь попередню вартість доставки</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label class="form-label">Оберіть спосіб доставки</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="deliveryMethod" id="express" value="express">
+                <label class="form-check-label" for="express">Експрес авіадоставка з Китаю</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="deliveryMethod" id="seaAuto" value="sea-auto">
+                <label class="form-check-label" for="seaAuto">Море - Авто (60 - 65 днів)</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="deliveryMethod" id="seaAuto" value="sea-auto">
+                <label class="form-check-label" for="seaAuto">Доставка з Китаю в Європу</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="deliveryMethod" id="seaAuto" value="sea-auto">
+                <label class="form-check-label" for="seaAuto">Доставка збірних вантажів (LCL)</label>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="city" class="form-label">Місто доставки</label>
+              <input type="text" class="form-control" id="city" placeholder="Введіть ваше місто" required>
+            </div>
+            <div class="mb-3">
+              <label for="productCategory" class="form-label">Оберіть категорію товару</label>
+              <select class="form-select" id="productCategory">
+                <option selected>Оберіть категорію...</option>
+                <option value="electronics">Електротовари, мобільні аксесуари</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="cargoWeightVolume" class="form-label">Вага і об'єм вантажу з упаковкою</label>
+              <input type="text" class="form-control" id="cargoWeightVolume" placeholder="Введіть масу, кг / об'єм, куб. м.">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email*</label>
+              <input type="email" class="form-control" id="email" placeholder="Напишіть ваш email" required>
+            </div>
+            <div class="mb-3">
+              <label for="fullName" class="form-label">Ім'я, Прізвище</label>
+              <input type="text" class="form-control" id="fullName" placeholder="Ваше ім'я">
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label">Телефон*</label>
+              <input type="tel" class="form-control" id="phone" placeholder="+380..." required>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer d-flex justify-content-center">
+          <button type="submit" class="btn btn-primary" id="submitButtonTop">Дізнатися вартість</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -91,32 +193,286 @@
       </div>
     </div>
   </div>
+
+  <!-- Form submission error -->
+  <div class="modal fade" id="errorModal" tabindex="-1" aria-labelledby="errorModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="errorModalLabel">Помилка заповнення форми</h5>
+        </div>
+        <div class="modal-body">
+          Будь ласка, заповніть всі поля форми.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрити</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Successful submission -->
+  <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="successModalLabel">Успіх</h5>
+        </div>
+        <div class="modal-body">
+          Email відправлено успішно!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрити</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Request submission error -->
+  <div class="modal fade" id="customErrorModal" tabindex="-1" aria-labelledby="customErrorModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="customErrorModalLabel">Помилка</h5>
+        </div>
+        <div class="modal-body" id="customErrorMessage">
+          Сталася помилка під час відправки запиту.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрити</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Main -->
   <main>
     <!-- Hero -->
     <section class="hero-section section" data-bs-theme="dark">
       <div class="container">
         <div class="row">
-          <div class="col-md-7 order-xl-1"><img src="./images/hero.gif" class="img-hego" width="880px" alt="Ship" /></div>
-          <div class="col-md-5 order-xl-0 my-3">
-            <h1>Доставка консолідованих вантажів з Китаю морем</h1>
+          <div class="col-md-6 order-xl-0 my-3 hero-section-left">
+            <h1>Доставка з Китаю в Україну авіа</h1>
             <h4>
               <span class="span-icon-before">
                 <svg width="24" height="24" class="main-svg-icon">
-                  <use href="./images/symbol-defs.svg#icon-star"></use>
+                  <use href="./images/symbol-defs.svg#icon-clock"></use>
                 </svg>
               </span>
-              Слідкуйте за доставкою вантажу
+              10-14 днів
             </h4>
             <div class="hero-search">
-              <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Завантажити програму</button>
+              <a href="#contact-form"><button type="button" class="btn btn-dark">Дізнатися тариф</button></a>
             </div>
-            <p class="hero-text">Або залиште заявку на доставку вантажу</p>
-            <a href="#contact-form"><button type="button" class="btn btn-outline-primary">Залишити заявку</button></a>
+          </div>
+          <div class="col-md-6 order-xl-0 my-3 hero-section-right">
+            <h1>Доставка з Китаю в Україну морем</h1>
+            <h4>
+              <span class="span-icon-before">
+                <svg width="24" height="24" class="main-svg-icon">
+                  <use href="./images/symbol-defs.svg#icon-clock"></use>
+                </svg>
+              </span>
+              65-70 днів
+            </h4>
+            <div class="hero-search">
+              <a href="#contact-form"><button type="button" class="btn btn-dark">Дізнатися тариф</button></a>
+            </div>
           </div>
         </div>
       </div>
     </section>
+
+    <!--About Us-->
+    <section class="about-us" id="aboutUs">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="section-title"><span>Чому обирають саме нас ?</span></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 about-us-img">
+            <img src="./images/transport-logistics-products1.jpg" alt="">
+          </div>
+          <div class="col-6 list-advantages">
+            <div class="advantages">
+              <h4>Повний комплекс послуг</h4>
+              <p>Від пошуку товару до доставки клієнту</p>
+            </div>
+            <div class="advantages">
+              <h4>Власні склади</h4>
+              <p>Консолідація товарних партій</p>
+              <p>Безпечне, безкоштовне зберігання</p>
+            </div>
+            <div class="advantages">
+              <h4>Оптимальні ціни</h4>
+              <p>Гнучкі умови, індивідуальний прорахунок</p>
+            </div>
+            <div class="advantages">
+              <h4>Відстеження вантажу</h4>
+              <p>Можливість особистого контролю за вантажем 24/7</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="section-title"><span>Послуги транспортно-логістичної компанії Easy Cargo</span></h2>
+          </div>
+        </div>
+        <div class="items">
+          <div class="row">
+            <div class="item-container col-lg-4 col-sm-6">
+              <div class="item">
+                <div class="services-img">
+                  <img src="./images/business1.jpg" alt="">
+                </div>
+                <h3>Повне супроводження бізнесу з Китаєм</h3>
+                <div class="overlay">
+                  <p>Ми беремо на себе всю паперову роботу, забезпечуючи повний комплект необхідних документів для вашого бізнесу.</p>
+                  <p>Спрощуємо процес проходження митниці, забезпечуючи коректність документів і швидке оформлення.</p>
+                  <p>Знайдемо надійних партнерів для вашого бізнесу, організуємо переговори та укладення контрактів.</p>
+                </div>
+              </div>
+            </div>
+            <div class="item-container col-lg-4 col-sm-6">
+              <div class="item">
+                <div class="services-img">
+                  <img src="./images/search1.jpg" alt="">
+                </div>
+                <h3>Пошук товарів в Китаї</h3>
+                <div class="overlay">
+                  <p>Ми знайдемо для вас найкращих постачальників і забезпечимо контроль якості.</p>
+                </div>
+              </div>
+            </div>
+            <div class="item-container col-lg-4 col-sm-6">
+              <div class="item">
+                <div class="services-img">
+                  <img src="./images/ship1.jpg" alt="">
+                </div>
+                <h3>Доставка морем та розмитнення</h3>
+                <div class="overlay">
+                  <p>Економічний спосіб транспортування великих партій товарів з Китаю.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="item-container col-lg-4 col-sm-6">
+              <div class="item">
+                <div class="services-img">
+                  <img src="./images/airplane1.jpg" alt="">
+                </div>
+                <h3>Доставка авіа та розмитнення</h3>
+                <div class="overlay">
+                  <p>Швидкий і надійний варіант для термінових вантажів.</p>
+                </div>
+              </div>
+            </div>
+            <div class="item-container col-lg-4 col-sm-6">
+              <div class="item">
+                <div class="services-img">
+                  <img src="./images/pexels-dibert-11172101.jpg" alt="">
+                </div>
+                <h3>Доставка з Китаю в Європу</h3>
+                <div class="overlay">
+                  <p>Послуга, створена для бізнесу, який переніс свої операції в Європу і потребує надійної логістики. Ми забезпечуємо швидку та безпечну доставку товарів напряму з Китаю з повним супроводом на всіх етапах транспортування.</p>
+                </div>
+              </div>
+            </div>
+            <div class="item-container col-lg-4 col-sm-6">
+              <div class="item">
+                <div class="services-img">
+                  <img src="./images/pexels-tomfisk-14271071.jpg" alt="">
+                </div>
+                <h3>Доставка збірних вантажів (LCL)</h3>
+                <div class="overlay">
+                  <p>Це невеликі партії товарів від різних замовників, що транспортуються в одному контейнері. Дана послуга необхідна підприємцям, чия діяльність передбачає регулярне перевезення різноманітних товарів невеликими партіями. Транспортування збірних вантажів дозволяє привезти пробну партію для оцінки економічної доцільності роботи з товаром або доставки зразків для перевірки їхньої якості, при цьому витрати на доставку та митне оформлення суттєво нижчі, ніж при роботі з великими обсягами.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Collaboration process-->
+    <section class="collaboration" id="collaboration">
+      <div class="container collaboration-container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="collaboration-title">Процес співпраці з нами</h2>
+          </div>
+          <div class="collaboration-wrapper">
+            <canvas id="canvas" width="780"></canvas>
+          </div>
+        </div>
+        <div class="row collaboration-items">
+          <div class="col-lg-2 col-sm-6 collaboration-item">
+            <div class="icon-wrapper">
+              <svg class="collaboration-icon">
+                <use class="collaboration-icon" href="./images/icon-step.svg#icon-step1"></use>
+              </svg>
+            </div>
+            <h3>Крок 1</h3>
+            <p>Ви залишаєте заявку</p>
+          </div>
+          <div class="col-lg-2 col-sm-6 collaboration-item">
+            <div class="icon-wrapper">
+              <svg class="collaboration-icon">
+                <use href="./images/icon-step.svg#icon-step2"></use>
+              </svg>
+            </div>
+            <h3>Крок 2</h3>
+            <p>Узгоджуємо терміни і тарифи. Оформлюємо документи</p>
+          </div>
+          <div class="col-lg-2 col-sm-6 collaboration-item">
+            <div class="icon-wrapper">
+              <svg class="collaboration-icon">
+                <use href="./images/icon-step.svg#icon-step3"></use>
+              </svg>
+            </div>
+            <h3>Крок 3</h3>
+            <p>Отримуємо вантаж на склад, повідомляємо фактичні параметри</p>
+          </div>
+          <div class="col-lg-2 col-sm-6 collaboration-item">
+            <div class="icon-wrapper">
+              <svg class="collaboration-icon">
+                <use href="./images/icon-step.svg#icon-step4"></use>
+              </svg>
+            </div>
+            <h3>Крок 4</h3>
+            <p>Відправляємо вантаж в Україну</p>
+          </div>
+          <div class="col-lg-2 col-sm-6 collaboration-item">
+            <div class="icon-wrapper">
+              <svg class="collaboration-icon">
+                <use href="./images/icon-step.svg#icon-step5"></use>
+              </svg>
+            </div>
+            <h3>Крок 5</h3>
+            <p>Розмитнюємо вантаж</p>
+          </div>
+          <div class="col-lg-2 col-sm-6 collaboration-item">
+            <div class="icon-wrapper">
+              <svg class="collaboration-icon">
+                <use href="./images/icon-step.svg#icon-step6"></use>
+              </svg>
+            </div>
+            <h3>Крок 6</h3>
+            <p>Наш менеджер зв’язується з вами для передачі товару і оплати доставки</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <?php
     $filename = 'data.txt';
@@ -148,173 +504,14 @@
 
     ?>
 
-    <!-- Week section -->
-    <section id="nearest-container" class="nearest-container-section section" data-bs-theme="dark">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5 my-3">
-            <h2>Відправляємо 2-4 контейнери на місяць</h2>
-            <h4 class="nearest-container-subtitle">Найближчий до відправки контейнер</h4>
-            <div class="row nearest-container-row">
-              <p>До відправки</p>
-              <h5>
-                <span class="span-icon-before">
-                  <svg width="24" height="24" class="main-svg-icon">
-                    <use href="./images/symbol-defs.svg#icon-clock"></use>
-                  </svg>
-                </span>
-                <?php echo "$days" ?>
-              </h5>
-            </div>
-            <div class="row nearest-container-row">
-              <p>Рівень заповненості</p>
-              <h5>
-                <span class="span-icon-before">
-                  <svg width="24" height="24" class="main-svg-icon">
-                    <use href="./images/symbol-defs.svg#icon-pack"></use>
-                  </svg>
-                </span>
-                <?php echo "$fullness%" ?>
-              </h5>
-            </div>
-            <a href="#contact-form"><button type="button" class="btn btn-primary">Залишити заявку</button></a>
-          </div>
-          <div class="col-md-7 justify-content-md-center"><img class="w-100" src="./images/<?php echo "$fullness" ?>.svg" alt="Container" /></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Our services -->
-    <section id="our-services" class="our-services-section section" data-bs-theme="dark">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-lg-4">
-            <h2>Ми пропонуємо</h2>
-            <h4>Якісний сервіс доставки вантажів з Китаю в Україну</h4>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <h3>
-              <span class="span-icon-before">
-                <svg width="24" height="24" class="main-svg-icon">
-                  <use href="./images/symbol-defs.svg#icon-label"></use>
-                </svg>
-              </span>
-              Фіксований тариф
-            </h3>
-            <p>Тариф, погоджений з Вами при прорахунку, не змінюється у процесі доставки</p>
-            <h3>
-              <span class="span-icon-before">
-                <svg width="24" height="24" class="main-svg-icon">
-                  <use href="./images/symbol-defs.svg#icon-workbook"></use>
-                </svg>
-              </span>
-              Оформлення документів
-            </h3>
-            <p>Наша компанія бере на себе оформлення всіх необхідних документів для того, щоб Ваш бізнес мав первинні документи на вантаж</p>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <h3>
-              <span class="span-icon-before">
-                <svg width="24" height="24" class="main-svg-icon">
-                  <use href="./images/symbol-defs.svg#icon-clock"></use>
-                </svg>
-              </span>
-              Доставка ON TIME
-            </h3>
-            <p>Наша компанія не працює з "брендовими" товарами та виконує цілий комплекс заходів націлених на те, щоб Ваш вантаж прибував вчасно</p>
-            <h3>
-              <span class="span-icon-before">
-                <svg width="24" height="24" class="main-svg-icon">
-                  <use href="./images/symbol-defs.svg#icon-car"></use>
-                </svg>
-              </span>
-              Індивідуальний підхід
-            </h3>
-            <p>Індивідуальний підхід до вирішення нестандартних завдань у доставці Вашого вантажу</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Stages of work -->
-    <section id="stages-work" class="stages-work-section section" data-bs-theme="dark">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5 my-3">
-            <h2>Етапи роботи</h2>
-            <ul class="stages-work-list">
-              <li>
-                <div class="stages-work-list-item-thumb">
-                  <span class="span-icon-before">
-                    <svg width="24" height="24" class="main-svg-icon">
-                      <use href="./images/symbol-defs.svg#icon-star2"></use>
-                    </svg>
-                  </span>
-                  <h3>Залишаєте заявку</h3>
-                </div>
-                <p>Заявку можна оформити, заповнивши форму на сайті або зателефонувавши менеджеру</p>
-              </li>
-              <li>
-                <div class="stages-work-list-item-thumb">
-                  <span class="span-icon-before">
-                    <svg width="24" height="24" class="main-svg-icon">
-                      <use href="./images/symbol-defs.svg#icon-star2"></use>
-                    </svg>
-                  </span>
-                  <h3>Отримуєте прорахунок, код клієнта та адресу складу в Китаї</h3>
-                </div>
-                <p>Постачальник маркує всі коробки Вашим індивідуальним кодом</p>
-              </li>
-              <li>
-                <div class="stages-work-list-item-thumb">
-                  <span class="span-icon-before">
-                    <svg width="24" height="24" class="main-svg-icon">
-                      <use href="./images/symbol-defs.svg#icon-star2"></use>
-                    </svg>
-                  </span>
-                  <h3>Отримуємо Ваш вантаж на складі у Китаї</h3>
-                </div>
-                <p>Прийом, оформлення та підготовка до відправки вантажу на нашому складі у Китаї</p>
-              </li>
-              <li>
-                <div class="stages-work-list-item-thumb">
-                  <span class="span-icon-before">
-                    <svg width="24" height="24" class="main-svg-icon">
-                      <use href="./images/symbol-defs.svg#icon-star2"></use>
-                    </svg>
-                  </span>
-                  <h3>Відправка контейнера</h3>
-                </div>
-                <p>Наша компанія використовує прямі лінії доставки контейнера, що прискорює процес доставки Вашого вантажу</p>
-              </li>
-              <li>
-                <div class="stages-work-list-item-thumb">
-                  <span class="span-icon-before">
-                    <svg width="24" height="24" class="main-svg-icon">
-                      <use href="./images/symbol-defs.svg#icon-star2"></use>
-                    </svg>
-                  </span>
-                  <h3>Отримання вантажу в Україні</h3>
-                </div>
-                <p>Вантаж можна забрати з нашого складу в Одесі, або ми погодимо доставку будь-якою зручною поштовою службою</p>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-7">
-            <img src="./images/ship2.jpg" alt="Ship" />
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- FAQ section -->
     <section id="faq" class="faq-section section" data-bs-theme="dark">
       <div class="container">
-        <h2>Запитання/відповіді</h2>
+        <h2 class="faq-title">Запитання/Відповіді</h2>
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Чому багато хто вибирає доставку морем?</button>
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Чому багато хто обирає доставку морем?</button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
               <div class="accordion-body">Морські перевезення дуже надійний та недорогий вид доставки. Морський транспорт не обмежує вантажі за вагою та габаритами. Контейнери з товаром пломбують і опечатують для збереження вмісту.</div>
@@ -334,8 +531,7 @@
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                Законодавство України забороняє ввозити товари, які можуть завдати шкоди іншим предметам, цінні рослини, тварин, антикваріат, дорогоцінні метали, психотропні речовини, балони з рідиною та газом, зброю та матеріали, з яких воно може
-                виготовлятися.
+                Законодавство України забороняє ввозити товари, які можуть завдати шкоди іншим предметам, цінні рослини, тварин, антикваріат, дорогоцінні метали, психотропні речовини, балони з рідиною та газом, зброю та матеріали, з яких воно може виготовлятися.
               </div>
             </div>
           </div>
@@ -346,7 +542,7 @@
               </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">При відправленні вантажу необхідно дати нам пакувальний лист, він повинен містити інформацію про вміст кожної коробки, розміри та вагу коробки</div>
+              <div class="accordion-body">При відправленні вантажу необхідно надати нам пакувальний лист, він повинен містити інформацію про вміст кожної коробки, розміри та вагу коробки.</div>
             </div>
           </div>
           <div class="accordion-item">
@@ -364,9 +560,55 @@
     <!-- Contact form -->
     <section id="contact-form" class="contact-form-section section" data-bs-theme="dark">
       <div class="container">
-        <div class="row">
-          <div class="col-md-5">
-            <h2>Оформити заявку</h2>
+        <div class="row d-flex justify-content-center gap-3">
+          <div class="col-md-6 contacts-button">
+            <h2>Наші контакти</h2>
+            <div class="address d-flex gap-3 align-items-center mb-3">
+              <h4>
+                <spsn>
+                  <i class="fa-solid fa-location-dot contact-form-icon"></i>
+                  </span>
+                  Одеса
+              </h4>
+            </div>
+            <div class="email-contacts d-flex gap-3 align-items-center mb-3">
+              <svg class="contact-form-icon">
+                <use class="contact-form-icon" href="./images/icon-step.svg#icon-step1"></use>
+              </svg>
+              <a class="button-link" aria-current="page" href="mailto:Office@easycargo.ua">Office@easycargo.ua</a>
+            </div>
+            <h4 class="mb-3">
+              <span class="span-icon-before">
+                <svg width="24" height="24" class="contact-form-icon">
+                  <use href="./images/symbol-defs.svg#icon-clock"></use>
+                </svg>
+              </span>
+              24/7 Консультації
+            </h4>
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <svg width="16" height="16" class="contact-form-icon">
+                <use href="./images/symbol-defs.svg#icon-phone"></use>
+              </svg>
+              <a class="button-link" aria-current="page" href="tel:+380505052888">+380505052888</a>
+              <a class="nav-link" aria-current="page" href="https://wa.me/380505052888"><i class="fa-brands fa-whatsapp form-social-icon"></i></a>
+              <a class="nav-link" aria-current="page" href="https://t.me/+380505052888"><i class="fa-brands fa-telegram form-social-icon"></i></a>
+            </div>
+            <div class="button-social-icons">
+              <ul class="social-icons d-flex gap-3">
+                <li><a href="https://www.instagram.com/easycargo.ua/">
+                    <i class="fa-brands fa-instagram form-social-icon"></i>
+                  </a></li>
+                <li><a href="https://www.facebook.com/easycargoua">
+                    <i class="fa-brands fa-facebook-f form-social-icon"></i>
+                  </a></li>
+                <li><a href="">
+                    <i class="fa-brands fa-linkedin-in form-social-icon"></i>
+                  </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-5 form">
+            <h2>Безкоштовна консультація</h2>
             <p>Заповніть форму, щоб наш менеджер зв'язався з Вами!</p>
             <form action="sendmail.php" method="post">
               <div class="mb-3">
@@ -385,24 +627,95 @@
                 <input type="checkbox" class="form-check-input" id="exampleCheck1" />
                 <label class="form-check-label" for="exampleCheck1">Згода на обробку даних, згідно з політикою конфіденційності</label>
               </div>
-              <button type="submit" class="btn btn-primary" id="submitButton" disabled>Відправити запит</button>
+              <button type="submit" class="btn btn-primary mb-3" id="submitButton" disabled>Оформити заявку</button>
             </form>
           </div>
-          <div class="col-md-7">
-            <img src="./images/Lifebuoy.svg" alt="" />
+        </div>
+    </section>
+
+    <!--warehouse-->
+    <section class="warehouse">
+      <div class="container warehouse-container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="section-title"><span>Склад Easy Cargo (Foshan)</span></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 warehouse-img">
+            <img src="./images/pexels-elevate-1267338.jpg" alt="Склад">
+          </div>
+          <div class="col-md-4">
+            <div class="address-map mb-3">
+              <h4>
+                <span>
+                  <i class="fa-solid fa-location-dot contact-form-icon"></i>
+                </span>
+                Address: No. 602, Longtai Industrial Building, No. 91 Suiyan Road, Nanhai District, Foshan city.
+                北京市朝阳区龙泰工业大厦602仓库佛山市南海区随沿路91号
+              </h4>
+            </div>
+            <div class="d-flex align-items-center gap-3 mb-3 phone-map">
+              <svg width="16" height="16" class="contact-form-icon">
+                <use href="./images/symbol-defs.svg#icon-phone"></use>
+              </svg>
+              <a class="button-link" aria-current="page" href="#">135 3335 3456</a>
+            </div>
+          </div>
+          <div class="col-md-4 warehouse-map" id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1060.573988330868!2d113.1414544701116!3d23.028830379639913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z5YyX5Lqs5biC5pyd6Ziz5Yy66b6Z5rOw5bel5Lia5aSn5Y6mNjAy5LuT5bqT5L2b5bGx5biC5Y2X5rW35Yy66ZqP5rK_6LevOTHlj7c!5e0!3m2!1suk!2sua!4v1727784529264!5m2!1suk!2sua"
+              width="414" height="276" style="border-radius: 9px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
+      <div class="container warehouse-container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="section-title"><span>Склад Easy Cargo (Yiwu)</span></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 warehouse-img">
+            <img src="./images/pexels-tiger-lily-4483610.jpg" alt="Склад">
+          </div>
+          <div class="col-md-4">
+            <div class="address-map mb-3">
+              <h4>
+                <span>
+                  <i class="fa-solid fa-location-dot contact-form-icon"></i>
+                </span>
+                Address: 1117 Yongjun Road, Yiwu City, Zhejiang Province
+                1117号圣蝶公司院内丰通国际贸易有限公司 陈 18957992095
+              </h4>
+            </div>
+            <div class="d-flex align-items-center gap-3 mb-3 phone-map">
+              <svg width="16" height="16" class="contact-form-icon">
+                <use href="./images/symbol-defs.svg#icon-phone"></use>
+              </svg>
+              <a class="button-link" aria-current="page" href="#">189 5799 2095</a>
+            </div>
+          </div>
+          <div class="col-md-4 warehouse-map" id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d888686.4463451261!2d119.66213882345507!3d29.532927725315282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x344956b0f0bd475d%3A0xd281c17b60d14fb0!2zWW9uZyBKdW4gTHUsIFpoZSBKaWFuZyBTaGVuZywg0JrQuNGC0LDQuQ!5e0!3m2!1suk!2sua!4v1727881276445!5m2!1suk!2sua"
+              width="414" height="276" style="border-radius: 9px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+
     </section>
+
+
   </main>
   <!-- Footer -->
   <footer>
     <p>Ⓒ EasyCargo 2023 All rights reserved</p>
   </footer>
+  <script src="./js/main.js"></script>
+  <script src="./js/canvas.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
-  <script src="./js/main.js"></script>
+  <script src="./js/logo-fixed.js"></script>
 </body>
 
 </html>
