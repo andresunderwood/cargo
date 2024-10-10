@@ -14,6 +14,13 @@
       submitButton.disabled = true
     }
   })
+  submitButton.addEventListener('click', function () {
+    gtag('event', 'click', {
+      'event_category': 'Form',
+      'event_label': 'Submit Button',
+      'value': 1
+    });
+  });
 })()
 
 $(document).ready(function () {
@@ -47,7 +54,7 @@ $(document).ready(function () {
           'app_name': 'myAppName',
           'screen_name': 'Form Submitted'
         });
-        
+
         // Обробка відповіді
         if (response === 'Повідомлення успішно надіслано') {
           $('#successModal').modal('show'); // Показать модальное окно успеха
