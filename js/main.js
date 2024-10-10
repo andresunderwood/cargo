@@ -42,6 +42,12 @@ $(document).ready(function () {
       url: 'sendmail.php',
       data: formData,
       success: function (response) {
+
+        gtag('event', 'screen_view', {
+          'app_name': 'myAppName',
+          'screen_name': 'Form Submitted'
+        });
+        
         // Обробка відповіді
         if (response === 'Повідомлення успішно надіслано') {
           $('#successModal').modal('show'); // Показать модальное окно успеха
