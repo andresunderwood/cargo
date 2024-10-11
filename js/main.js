@@ -15,10 +15,9 @@
     }
   })
   submitButton.addEventListener('click', function () {
-    gtag('event', 'click', {
+    gtag('event', 'form_submitted', {
       'event_category': 'Form',
-      'event_label': 'Submit Button',
-      'value': 1
+      'event_label': 'Send email'
     });
   });
 })()
@@ -49,11 +48,6 @@ $(document).ready(function () {
       url: 'sendmail.php',
       data: formData,
       success: function (response) {
-
-        gtag('event', 'screen_view', {
-          'app_name': 'myAppName',
-          'screen_name': 'Form Submitted'
-        });
 
         // Обробка відповіді
         if (response === 'Повідомлення успішно надіслано') {
