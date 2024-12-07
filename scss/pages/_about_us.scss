@@ -27,7 +27,7 @@
 .advantages {
     border-radius: 10px;
     border: solid #e1ff03 1px;
-    max-width: 400px;
+    width: 70%;
     padding: 10px 15px;
     -webkit-box-shadow: 7px 13px 35px -13px rgba(225,255,3,1);
     -moz-box-shadow: 7px 13px 35px -13px rgba(225,255,3,1);
@@ -66,6 +66,7 @@
     }
     .advantages {
         margin-bottom: 15px;
+        width: 90%;
     }
    
 }
