@@ -456,7 +456,7 @@ footer {
 .advantages {
   border-radius: 10px;
   border: solid #e1ff03 1px;
-  max-width: 400px;
+  width: 70%;
   padding: 10px 15px;
   box-shadow: 7px 13px 35px -13px rgb(225, 255, 3);
 }
@@ -485,6 +485,7 @@ footer {
   }
   .advantages {
     margin-bottom: 15px;
+    width: 90%;
   }
 }
 .services {
